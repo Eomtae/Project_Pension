@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "good";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "big";
+  src: url("https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html,
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  width: 100%;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul img,
+li img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a,
+i,
+em,
+strong,
+b,
+code,
+::after,
+::before {
+  display: inline-block;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 9999;
+  padding: 1% 0;
+}
+header .logo {
+  font-size: 2rem;
+  font-family: "big";
+}
+header .logo a {
+  color: #fff;
+}
+header nav {
+  width: 30%;
+}
+header nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul li {
+  font-size: 1.25rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header nav ul li a {
+  color: #fff;
+}
+header .menu-button img {
+  cursor: pointer;
+}
+
+.first {
+  width: 100%;
+  height: 100vh;
+}
+.first .swiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "good";
+  font-weight: 900;
+}
+.first .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first .swiper-slide .maintext {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.first .swiper-slide .maintext img {
+  display: block;
+  height: 100%;
+}
+.first .swiper-slide .maintext p {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  padding: 0.625rem;
+}
+.first .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.first .swiper-button-next {
+  color: #fff;
+}
+.first .swiper-button-prev {
+  color: #fff;
+}
+
+.second {
+  width: 100%;
+  height: 100vh;
+}
+.second .second-banner {
+  width: 100%;
+  display: flex;
+  padding: 3% 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+.second .second-banner .text {
+  width: 100%;
+  line-height: 2.1;
+}
+.second .second-banner .text h1 {
+  font-size: 2.5rem;
+  font-family: "big";
+  font-weight: 400;
+}
+.second .second-banner .text p {
+  font-family: "good";
+  font-weight: 400;
+}
+.second .second-banner img {
+  width: 70%;
+  border-radius: 20px;
+}
+.second :nth-of-type(2) {
+  flex-direction: row-reverse;
+}
+.second :nth-of-type(2) img {
+  margin-left: 30%;
+  border-radius: 20px;
+}
+.second .view {
+  width: 200px;
+  height: 100px;
+}/*# sourceMappingURL=index.css.map */
