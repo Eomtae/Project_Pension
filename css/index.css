@@ -10,6 +10,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "italic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 html,
 body {
   margin: 0 auto;
@@ -58,49 +64,11 @@ code,
   display: inline-block;
 }
 
-header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  position: fixed;
-  z-index: 9999;
-  padding: 1% 0;
-}
-header .logo {
-  font-size: 2rem;
-  font-family: "big";
-}
-header .logo a {
-  color: #fff;
-}
-header nav {
-  width: 30%;
-}
-header nav ul {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-header nav ul li {
-  font-size: 1.25rem;
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-header nav ul li a {
-  color: #fff;
-}
-header .menu-button img {
-  cursor: pointer;
-}
-
-.first {
+.banner {
   width: 100%;
   height: 100vh;
 }
-.first .swiper {
+.banner .swiper {
   width: 100%;
   height: 100%;
   margin-left: auto;
@@ -108,7 +76,7 @@ header .menu-button img {
   font-family: "good";
   font-weight: 900;
 }
-.first .swiper-slide {
+.banner .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -116,17 +84,17 @@ header .menu-button img {
   justify-content: center;
   align-items: center;
 }
-.first .swiper-slide .maintext {
+.banner .swiper-slide .maintext {
   position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-.first .swiper-slide .maintext img {
+.banner .swiper-slide .maintext img {
   display: block;
   height: 100%;
 }
-.first .swiper-slide .maintext p {
+.banner .swiper-slide .maintext p {
   position: absolute;
   bottom: 50%;
   left: 0;
@@ -137,56 +105,145 @@ header .menu-button img {
   font-size: 3rem;
   padding: 0.625rem;
 }
-.first .swiper-slide img {
+.banner .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.first .swiper-button-next {
-  color: #fff;
+.banner .swiper-button-next {
+  color: rgba(255, 255, 255, 0.3);
 }
-.first .swiper-button-prev {
-  color: #fff;
+.banner .swiper-button-prev {
+  color: rgba(255, 255, 255, 0.3);
 }
 
-.second {
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+main .first {
   width: 100%;
   height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
-.second .second-banner {
+main .first .big-box {
+  max-width: 1400px;
+}
+main .first .big-box .first-banner {
   width: 100%;
   display: flex;
-  padding: 3% 10%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-.second .second-banner .text {
-  width: 100%;
-  line-height: 2.1;
+main .first .big-box .first-banner .text {
+  width: 40%;
+  line-height: 1.7;
 }
-.second .second-banner .text h1 {
-  font-size: 2.5rem;
+main .first .big-box .first-banner .text h1 {
+  font-size: 3.75rem;
   font-family: "big";
   font-weight: 400;
 }
-.second .second-banner .text p {
+main .first .big-box .first-banner .text span {
+  font-family: "good";
+}
+main .first .big-box .first-banner .text p {
   font-family: "good";
   font-weight: 400;
 }
-.second .second-banner img {
-  width: 70%;
+main .first .big-box .first-banner .img-box {
+  width: 40%;
+}
+main .first .big-box .first-banner .img-box img {
+  width: 100%;
   border-radius: 20px;
 }
-.second :nth-of-type(2) {
+main .first .big-box :nth-of-type(2) {
   flex-direction: row-reverse;
 }
-.second :nth-of-type(2) img {
-  margin-left: 30%;
+main .second {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main .second .second-text {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "italic";
+}
+main .second .flexbox {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+main .second .flexbox .box-inner {
+  width: 1400px;
+  padding: 0 2%;
+}
+main .second .flexbox .box-inner img {
+  width: 100%;
   border-radius: 20px;
 }
-.second .view {
-  width: 200px;
-  height: 100px;
+main .second .flexbox .box-inner .box-text {
+  height: 10vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .second .flexbox .box-inner .box-text span {
+  margin-bottom: 1rem;
+  font-family: "italic";
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+main .second .flexbox .box-inner .box-text p {
+  font-family: "good";
+}
+main .third {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main .third .third-text {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "big";
+  display: flex;
+  flex-direction: column;
+}
+main .third .third-text span {
+  text-align: center;
+}
+main .third .third-box {
+  width: 100%;
+  height: 50vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+main .third .third-box .api {
+  width: 60%;
+  background-color: green;
+}
+main .third .third-box .third-imgbox {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+main .third .third-box .third-imgbox img {
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,97 @@
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 9999;
+    padding: 2%;
+    .logo{
+        font-size: 2rem;
+        font-family: 'italic';
+        a{
+            color: #fff;
+        }
+    }
+    nav{
+        width: 30%;
+        ul{
+            width:100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            li{
+                font-size:1.25rem;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                a{
+                    color: #fff;
+                }
+            }
+            }
+        }
+        .menu-button{
+            img{
+                cursor: pointer;
+            }
+        }
+      
+
+
+
+    } // header --------------------------------------------------
+
+    footer{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: space-between;
+        background-color: #414242;
+        
+        .footer-left{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            span{
+                color: #fff;
+                font-size: 20px;
+            }
+        }
+        .footer-right{
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .bank{
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                align-items: center;
+                img{
+                    width: 10%
+                }
+                p{
+                    color: #fff;
+                    font-size: 1.5rem;
+                }
+            }
+            .cs{
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                align-items: center;
+                img{
+                    width: 10%
+                }
+                p{
+                    color: #fff;
+                    font-size: 1.5rem;
+                    letter-spacing: 1px;
+                }
+            }
+            
+        }
+    }

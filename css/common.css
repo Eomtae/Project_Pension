@@ -1,0 +1,88 @@
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 9999;
+  padding: 2%;
+}
+header .logo {
+  font-size: 2rem;
+  font-family: "italic";
+}
+header .logo a {
+  color: #fff;
+}
+header nav {
+  width: 30%;
+}
+header nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul li {
+  font-size: 1.25rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header nav ul li a {
+  color: #fff;
+}
+header .menu-button img {
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #414242;
+}
+footer .footer-left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .footer-left span {
+  color: #fff;
+  font-size: 20px;
+}
+footer .footer-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+footer .footer-right .bank {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+footer .footer-right .bank img {
+  width: 10%;
+}
+footer .footer-right .bank p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+footer .footer-right .cs {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+footer .footer-right .cs img {
+  width: 10%;
+}
+footer .footer-right .cs p {
+  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}/*# sourceMappingURL=common.css.map */

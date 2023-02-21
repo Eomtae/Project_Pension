@@ -10,6 +10,14 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'italic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$width:1400px;
 
 html,
 body {
@@ -59,47 +67,10 @@ code,
   display: inline-block;
 }	
 
-header{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: fixed;
-    z-index: 9999;
-    padding: 1% 0;
-    .logo{
-        font-size: 2rem;
-        font-family: 'big';
-        a{
-            color: #fff;
-        }
-    }
-    nav{
-        width: 30%;
-        ul{
-            width:100%;
-            height: 100%;
-            display: flex;
-            justify-content: space-between;
-            li{
-                font-size:1.25rem;
-                height: 100%;
-                display: flex;
-                align-items: center;
-                a{
-                    color: #fff;
-                }
-            }
-            }
-        }
-        .menu-button{
-            img{
-                cursor: pointer;
-            }
-        }
-    }
 
-    .first{
+
+    
+    .banner{
         width: 100%;
         height: 100vh;
         .swiper {
@@ -128,7 +99,7 @@ header{
                     height:100%;
                 }
                 p {
-                    position: absolute; 
+                    position: absolute;
                     bottom:50%; 
                     left:0; 
                     width:100%; 
@@ -138,6 +109,7 @@ header{
                     font-size: 3rem; 
                     padding: 0.625rem;
                 }
+                
             }
 
           }
@@ -148,52 +120,145 @@ header{
             object-fit: cover;
           }
           .swiper-button-next{
-            color: #fff;
+            color: rgb(255, 255, 255,0.3);
           }
           .swiper-button-prev{
-            color: #fff;
+            color: rgb(255, 255, 255,0.3);
           }
           
     
-    } // first===============================================
+    } // banner===============================================
+    main{
+        max-width: $width;
+        margin: 0 auto;
+    .first{
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        .big-box{
+            max-width: $width;
+            .first-banner{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                .text{
+                    width:40%;
+                    line-height: 1.7;
+                    h1{
+                        font-size: 3.75rem;
+                        font-family: 'big';
+                        font-weight: 400;
+                    }
+                    span{
+                        font-family: 'good';
+                    }
+                    p{
+                        font-family: 'good';
+                        font-weight: 400;
+                    }
+                }
+                .img-box{
+                    width: 40%;
+                    img{
+                        width: 100%;
+                        border-radius: 20px;
+                    }
+                }
+               
+            }
+            :nth-of-type(2){
+                flex-direction: row-reverse;
+            }
+        }
+        
+    } // first ---------------------------------------------------------------------
 
     .second{
         width: 100%;
         height: 100vh;
-
-        .second-banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .second-text{
             width: 100%;
+            text-align: center;
+            font-size: 3rem;
+            font-family: 'italic';
+        }
+        .flexbox{
             display: flex;
-            padding: 3% 10%;
+            width: 100%;
             align-items: center;
-            justify-content: space-between;
-            .text{
-                width:100%;
-                line-height: 2.1;
-                h1{
-                    font-size: 2.5rem;
-                    font-family: 'big';
-                    font-weight: 400;
+            justify-content: center;
+            text-align: center;
+            .box-inner{
+                width: $width;
+                padding: 0 2%;
+                img{
+                    width: 100%;
+                    border-radius: 20px;
                 }
-                p{
-                    font-family: 'good';
-                    font-weight: 400;
+                .box-text{
+                    height: 10vh;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    span{
+                        margin-bottom: 1rem;
+                        font-family: 'italic';
+                        font-size: 1.25rem;
+                        font-weight: bold;
+                    }
+                    p{
+                        font-family: 'good';
+                        
+                    }
                 }
             }
-            img{
-                width: 70%;
-                border-radius: 20px;
-            }
-        }
-        :nth-of-type(2){
-            flex-direction: row-reverse;
-            img{
-                margin-left: 30%;
-                border-radius: 20px;
-            }
-        }
-        .view{
-            width: 200px;
-            height: 100px;
+            
         }
     }
+
+    .third{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .third-text{
+            width: 100%;
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'big';
+            display: flex;
+            flex-direction: column;
+            span{
+                text-align: center;
+            }
+        }
+        .third-box{
+            width: 100%;
+            height: 50vh;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-evenly;
+            .api{
+                width: 60%;
+                background-color: green;
+            }
+            .third-imgbox{
+                width: 30%;
+                display: flex;
+                align-items: center;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
