@@ -11,7 +11,7 @@
     <!--Swiper-->
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/common.css">
-    <script defer src="./js/index.js"></script>
+    <link rel="stylesheet" href="./js/index.js">
 
     <title>::El Mar 펜션에 오신 것을 환영합니다::</title>
 </head>
@@ -19,14 +19,14 @@
 <body>
     <header>
         <div class="logo">
-            <a href="#">El Mar</a>
+            <a href="index.html">El Mar</a>
         </div>
         <nav>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Rooms</a></li>
-                <li><a href="#">Tour</a></li>
-                <li><a href="#">Reservation</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="room.html">Rooms</a></li>
+                <li><a href="tour.html">Tour</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
             </ul>
         </nav>
         <div class="menu-button">
@@ -154,14 +154,11 @@
                 API box 입니다
             </div>
             <div class="third-imgbox">
-                <img src="./img/main/mark.png" alt="">
+                <img src="./img/main/here.png" alt="">
             </div>
         </article>
     </section>
-
-
 </main>
-
     <footer>
         <div class="footer-left">
             <span>사업자등록번호 : 688-06-00568 </span> <br>
@@ -180,6 +177,24 @@
             </div>
         </div> <!--footer right-------------------------------------->
     </footer>
-</body>
 
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        effect:"fade",
+        loop: true,
+        autoplay:{
+          delay:3000,
+        },
+        pagination: {
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+</script> <!--메인 페이지 스와이퍼-->
+</body>
 </html>
