@@ -18,6 +18,7 @@ $width:1400px;
        padding:4%;
        font-family: 'good';
        font-weight: 700;
+       text-shadow: 4px 4px 6px rgb(112, 110, 110);
     }
 }
 main{
@@ -33,7 +34,6 @@ main{
             font-size: 4rem;
             font-family: 'good';
             font-weight: 500;
-            font-style: italic;
             color: #000;
         }
     }
@@ -106,7 +106,7 @@ main{
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: space-evenly;
             img{
                 width: 100%;
             }

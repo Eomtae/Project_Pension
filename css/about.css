@@ -17,6 +17,7 @@
   font-family: "good";
   font-weight: 700;
   font-size: 4rem;
+  text-shadow: 4px 4px 6px rgb(112, 110, 110);
 }
 
 main {
@@ -61,7 +62,7 @@ main .first .outside .text {
 }
 main .first .outside .text span {
   font-size: 2.5rem;
-  font-family: "italic";
+  font-family: "good";
 }
 main .second {
   width: 100%;
@@ -101,7 +102,7 @@ main .second .outside .text {
 }
 main .second .outside .text span {
   font-size: 2.5rem;
-  font-family: "italic";
+  font-family: "good";
 }
 main .third {
   width: 100%;
@@ -141,7 +142,7 @@ main .third .outside .text {
 }
 main .third .outside .text span {
   font-size: 2.5rem;
-  font-family: "italic";
+  font-family: "good";
 }
 main .fourth {
   width: 100%;
@@ -181,5 +182,5 @@ main .fourth .outside .text {
 }
 main .fourth .outside .text span {
   font-size: 2.5rem;
-  font-family: "italic";
+  font-family: "good";
 }/*# sourceMappingURL=about.css.map */

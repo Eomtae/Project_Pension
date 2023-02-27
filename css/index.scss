@@ -148,8 +148,8 @@ code,
                     width:40%;
                     line-height: 1.7;
                     h1{
-                        font-size: 3.75rem;
-                        font-family: 'big';
+                        font-size: 3.5rem;
+                        font-family: 'good';
                         font-weight: 400;
                     }
                     span{
@@ -210,7 +210,7 @@ code,
                     justify-content: center;
                     span{
                         margin-bottom: 1rem;
-                        font-family: 'italic';
+                        font-family: 'good';
                         font-size: 1.25rem;
                         font-weight: bold;
                     }
@@ -234,7 +234,7 @@ code,
             width: 100%;
             text-align: center;
             font-size: 2rem;
-            font-family: 'big';
+            font-family: 'good';
             display: flex;
             flex-direction: column;
             span{
@@ -247,8 +247,9 @@ code,
             margin: 0 auto;
             display: flex;
             justify-content: space-evenly;
-            .api{
+            #map{
                 width: 60%;
+                height: 484px;
                 background-color: green;
             }
             .third-imgbox{
@@ -257,6 +258,7 @@ code,
                 align-items: center;
                 img{
                     width: 100%;
+                    border-radius: 20px;
                 }
             }
         }

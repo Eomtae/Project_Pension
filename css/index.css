@@ -144,8 +144,8 @@ main .first .big-box .first-banner .text {
   line-height: 1.7;
 }
 main .first .big-box .first-banner .text h1 {
-  font-size: 3.75rem;
-  font-family: "big";
+  font-size: 3.5rem;
+  font-family: "good";
   font-weight: 400;
 }
 main .first .big-box .first-banner .text span {
@@ -203,7 +203,7 @@ main .second .flexbox .box-inner .box-text {
 }
 main .second .flexbox .box-inner .box-text span {
   margin-bottom: 1rem;
-  font-family: "italic";
+  font-family: "good";
   font-size: 1.25rem;
   font-weight: bold;
 }
@@ -221,7 +221,7 @@ main .third .third-text {
   width: 100%;
   text-align: center;
   font-size: 2rem;
-  font-family: "big";
+  font-family: "good";
   display: flex;
   flex-direction: column;
 }
@@ -235,8 +235,9 @@ main .third .third-box {
   display: flex;
   justify-content: space-evenly;
 }
-main .third .third-box .api {
+main .third .third-box #map {
   width: 60%;
+  height: 484px;
   background-color: green;
 }
 main .third .third-box .third-imgbox {
@@ -246,4 +247,5 @@ main .third .third-box .third-imgbox {
 }
 main .third .third-box .third-imgbox img {
   width: 100%;
+  border-radius: 20px;
 }/*# sourceMappingURL=index.css.map */
