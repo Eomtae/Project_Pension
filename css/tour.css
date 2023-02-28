@@ -26,7 +26,7 @@ main {
 }
 main .first {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -57,7 +57,7 @@ main .first .right img {
 }
 main .second {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -89,7 +89,7 @@ main .second .right p {
 }
 main .third {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -120,7 +120,7 @@ main .third .right img {
 }
 main .fourth {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -152,7 +152,7 @@ main .fourth .right p {
 }
 main .fifth {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -183,7 +183,7 @@ main .fifth .right img {
 }
 main .sixth {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -1,5 +1,5 @@
 $width:1400px;
-
+$font-family : 'good';
 .main-banner{
     width: 100%;
     height: 50vh;
@@ -21,96 +21,140 @@ $width:1400px;
        text-shadow: 4px 4px 6px rgb(112, 110, 110);
     }
 }
-main{
-    margin: 0 auto;
-    width: $width;
-    .first{
+.first{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    .wrap{
         width: 100%;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        h1{
-            font-size: 4rem;
-            font-family: 'good';
-            font-weight: 500;
-            color: #000;
-        }
-    }
-    .second{
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        .wrap{
-            width: 100%;
-            display: flex;
-        .swiper {
-            width: 70%;
-            height: 70%;
-          }
-      
-          .swiper-slide {
-            text-align: center;
-            font-size: 18px;
-            background: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-      
-          .swiper-slide img {
-            display: block;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-          }
-          .swiper-button-prev{
-            color:rgb(255, 255, 255,0.5);
-          }
-          .swiper-button-next{
-            color:rgb(255, 255, 255,0.5);
-          }
-          
-      .choose{
-        width: 30%;
-        height: 70%;
         display: flex;
         flex-direction: column;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        button{
-            width: 70%;
-            height: 12.5rem;
-            font-size: 1.5rem;
-            font-family: 'good';
-        }
-      }
-    }
-}
-    .third{
+        .choose{
+            width: $width;
+            margin:0 auto;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: space-around;
+            button{
+                width: 100%;
+                height: 3.125rem;
+                font-size: 1rem;
+                font-family: 'good';
+                border: none;
+            }
+          }
+    .swiper {
         width: 100%;
-        height: 100vh;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
         display: flex;
-        justify-content: space-evenly;
-        .mark{
-            width: 40%;
-            display: flex;
-            align-items: center;
-            img{
-                width: 100%;
-            }
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .swiper-button-prev{
+        color:rgb(255, 255, 255,0.5);
+      }
+      .swiper-button-next{
+        color:rgb(255, 255, 255,0.5);
+      }
+    //   .swiper-pagination-progressbar{
+    //      color: #C9F4AA;
+    //   }
+      
+  
+}
+}
+main{
+    max-width: $width;
+    margin:0 auto;
+    .second{
+        width: 100%;
+    height: 100vh;
+    font-family: $font-family;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+        .second-tab{
+            width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 3%;
+        margin-bottom:0;
+
+        span{
+            font-size: 1.5rem;
         }
-        .safe{
-            width: 40%;
+        }
+        .second-box{
+            width: 100%;
             display: flex;
+            justify-content: space-around;
             flex-direction: column;
-            align-items: center;
-            justify-content: space-evenly;
-            img{
+            font-family: $font-family;
+            .flexbox{
                 width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 4%;
+                img{
+                    width: 30%;
+                }
             }
         }
+        .go-res{
+            width: 100%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            font-family: $font-family;
+            margin: 4% 0;
+            button{
+                cursor: pointer;
+                width: 12.5rem;
+                height: 3.125rem;
+                border: solid 1px #000;
+                background-color: transparent;
+                &:hover{
+                    background: #000;
+                    color: #fff;
+                    transition: 1s;
+                }
+            }
+        }
+    }
+    
+}
+.third{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/room/aaa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    h1{
+        font-size: 2.5rem;
+        font-family: 'good';
+        font-weight: 500;
+        color: #f7f3eb;
     }
 }
 

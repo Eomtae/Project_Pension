@@ -20,37 +20,36 @@
   text-shadow: 4px 4px 6px rgb(112, 110, 110);
 }
 
-main {
-  margin: 0 auto;
+.first {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.first .wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.first .wrap .choose {
   width: 1400px;
-}
-main .first {
-  width: 100%;
-  height: 100vh;
+  margin: 0 auto;
   display: flex;
+  text-align: center;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
-main .first h1 {
-  font-size: 4rem;
+.first .wrap .choose button {
+  width: 100%;
+  height: 3.125rem;
+  font-size: 1rem;
   font-family: "good";
-  font-weight: 500;
-  color: #000;
+  border: none;
 }
-main .second {
+.first .wrap .swiper {
   width: 100%;
-  height: 100vh;
-  display: flex;
+  height: 100%;
 }
-main .second .wrap {
-  width: 100%;
-  display: flex;
-}
-main .second .wrap .swiper {
-  width: 70%;
-  height: 70%;
-}
-main .second .wrap .swiper-slide {
+.first .wrap .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -58,55 +57,96 @@ main .second .wrap .swiper-slide {
   justify-content: center;
   align-items: center;
 }
-main .second .wrap .swiper-slide img {
+.first .wrap .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-main .second .wrap .swiper-button-prev {
+.first .wrap .swiper-button-prev {
   color: rgba(255, 255, 255, 0.5);
 }
-main .second .wrap .swiper-button-next {
+.first .wrap .swiper-button-next {
   color: rgba(255, 255, 255, 0.5);
 }
-main .second .wrap .choose {
-  width: 30%;
-  height: 70%;
+
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+main .second {
+  width: 100%;
+  height: 100vh;
+  font-family: "good";
   display: flex;
   flex-direction: column;
-  text-align: center;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
 }
-main .second .wrap .choose button {
-  width: 70%;
-  height: 12.5rem;
+main .second .second-tab {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 0;
+}
+main .second .second-tab span {
   font-size: 1.5rem;
+}
+main .second .second-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
   font-family: "good";
 }
-main .third {
+main .second .second-box .flexbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+}
+main .second .second-box .flexbox img {
+  width: 30%;
+}
+main .second .go-res {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: "good";
+  margin: 4% 0;
+}
+main .second .go-res button {
+  cursor: pointer;
+  width: 12.5rem;
+  height: 3.125rem;
+  border: solid 1px #000;
+  background-color: transparent;
+}
+main .second .go-res button:hover {
+  background: #000;
+  color: #fff;
+  transition: 1s;
+}
+
+.third {
   width: 100%;
   height: 100vh;
   display: flex;
-  justify-content: space-evenly;
-}
-main .third .mark {
-  width: 40%;
-  display: flex;
   align-items: center;
+  justify-content: center;
+  background-image: url(../img/room/aaa.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
-main .third .mark img {
-  width: 100%;
-}
-main .third .safe {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
-main .third .safe img {
-  width: 100%;
+.third h1 {
+  font-size: 2.5rem;
+  font-family: "good";
+  font-weight: 500;
+  color: #f7f3eb;
 }/*# sourceMappingURL=room.css.map */
