@@ -1,0 +1,152 @@
+.main-banner {
+  width: 100%;
+  height: 50vh;
+  background-image: url(../img/room-banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+}
+.main-banner h1 {
+  font-size: 4rem;
+  color: #fff;
+  padding: 4%;
+  font-family: "good";
+  font-weight: 700;
+  text-shadow: 4px 4px 6px rgb(112, 110, 110);
+}
+
+.first {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.first .wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.first .wrap .choose {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.first .wrap .choose button {
+  width: 100%;
+  height: 3.125rem;
+  font-size: 1rem;
+  font-family: "good";
+  border: none;
+}
+.first .wrap .swiper {
+  width: 100%;
+  height: 100%;
+}
+.first .wrap .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first .wrap .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.first .wrap .swiper-button-prev {
+  color: rgba(255, 255, 255, 0.5);
+}
+.first .wrap .swiper-button-next {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+main .second {
+  width: 100%;
+  height: 100vh;
+  font-family: "good";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .second .second-tab {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 0;
+}
+main .second .second-tab span {
+  font-size: 1.5rem;
+}
+main .second .second-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-family: "good";
+}
+main .second .second-box .flexbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+}
+main .second .second-box .flexbox img {
+  width: 30%;
+}
+main .second .go-res {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: "good";
+  margin: 4% 0;
+}
+main .second .go-res button {
+  cursor: pointer;
+  width: 12.5rem;
+  height: 3.125rem;
+  border: solid 1px #000;
+  background-color: transparent;
+}
+main .second .go-res button:hover {
+  background: #000;
+  color: #fff;
+  transition: 1s;
+}
+
+.third {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/room/aaa.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.third h1 {
+  font-size: 2.5rem;
+  font-family: "good";
+  font-weight: 500;
+  color: #f7f3eb;
+}/*# sourceMappingURL=room.css.map */

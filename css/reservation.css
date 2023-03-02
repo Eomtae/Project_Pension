@@ -1,0 +1,134 @@
+.main-banner {
+  max-width: 100%;
+  height: 50vh;
+  background-image: url(../img/reservation-banner.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+}
+.main-banner h1 {
+  font-size: 4rem;
+  color: #fff;
+  padding: 4%;
+  font-family: "good";
+  font-weight: 700;
+  text-shadow: 4px 4px 6px rgb(112, 110, 110);
+}
+
+main {
+  width: 1400px;
+  margin: 0 auto;
+}
+main .first {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .first .price {
+  margin-top: 5%;
+}
+main .first .price img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+main .first h2 {
+  font-family: "good";
+  letter-spacing: 6.25rem;
+  font-size: 2.25rem;
+}
+main .second {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.7;
+  text-align: center;
+  margin-bottom: 5%;
+}
+main .second p {
+  font-family: "good";
+}
+main .second .left {
+  width: 100%;
+}
+main .second .left h3 {
+  font-size: 1.875rem;
+  font-family: "good";
+  letter-spacing: 5px;
+}
+main .second .left span {
+  font-family: "good";
+  font-weight: 400;
+  font-size: 1.875rem;
+}
+main .second .left :nth-of-type(4) {
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+}
+main .second .right {
+  width: 100%;
+}
+main .second .right img {
+  width: 100%;
+  border-radius: 25px;
+}
+main .third {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.7;
+  text-align: center;
+  margin-bottom: 10%;
+}
+main .third p {
+  font-family: "good";
+}
+main .third .left {
+  width: 48%;
+}
+main .third .left img {
+  width: 100%;
+  border-radius: 25px;
+}
+main .third .right {
+  width: 48%;
+}
+main .third .right h3 {
+  font-size: 1.875rem;
+  font-family: "good";
+  letter-spacing: 10px;
+}
+
+.fourth article {
+  height: 100vh;
+  background-image: url(../img/reservation/caution.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2.7;
+}
+.fourth article h3 {
+  font-size: 3rem;
+  font-family: "good";
+  -webkit-text-decoration: underline 5px brown;
+          text-decoration: underline 5px brown;
+}
+.fourth article p {
+  font-family: "good";
+  font-size: 1.25rem;
+  font-weight: 500;
+}/*# sourceMappingURL=reservation.css.map */

@@ -1,0 +1,215 @@
+.main-banner {
+  width: 100%;
+  height: 50vh;
+  background-image: url(../img/tour-banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+}
+.main-banner h1 {
+  font-size: 4rem;
+  color: #fff;
+  padding: 4%;
+  font-family: "good";
+  font-weight: 700;
+  text-shadow: 4px 4px 6px rgb(112, 110, 110);
+}
+
+main {
+  width: 87.5rem;
+  margin: 0 auto;
+}
+main .first {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.8;
+}
+main .first .left {
+  width: 40%;
+}
+main .first .left h2 {
+  font-family: "good";
+  font-weight: 600;
+  font-size: 2.25rem;
+}
+main .first .left span {
+  font-family: "good";
+  font-size: 1.25rem;
+}
+main .first .left p {
+  font-family: "good";
+  font-weight: 200;
+}
+main .first .right {
+  width: 40%;
+}
+main .first .right img {
+  width: 100%;
+  border-radius: 25px;
+}
+main .second {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.8;
+  text-align: end;
+}
+main .second .left {
+  width: 40%;
+}
+main .second .left img {
+  width: 100%;
+  border-radius: 25px;
+}
+main .second .right {
+  width: 40%;
+}
+main .second .right h2 {
+  font-family: "good";
+  font-weight: 600;
+  font-size: 2.25rem;
+}
+main .second .right span {
+  font-family: "good";
+  font-size: 1.25rem;
+}
+main .second .right p {
+  font-family: "good";
+  font-weight: 200;
+}
+main .third {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.8;
+}
+main .third .left {
+  width: 40%;
+}
+main .third .left h2 {
+  font-family: "good";
+  font-weight: 600;
+  font-size: 2.25rem;
+}
+main .third .left span {
+  font-family: "good";
+  font-size: 1.25rem;
+}
+main .third .left p {
+  font-family: "good";
+  font-weight: 200;
+}
+main .third .right {
+  width: 40%;
+}
+main .third .right img {
+  width: 100%;
+  border-radius: 25px;
+}
+main .fourth {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.8;
+  text-align: end;
+}
+main .fourth .left {
+  width: 40%;
+}
+main .fourth .left img {
+  width: 100%;
+  border-radius: 25px;
+}
+main .fourth .right {
+  width: 40%;
+}
+main .fourth .right h2 {
+  font-family: "good";
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+main .fourth .right span {
+  font-family: "good";
+  font-size: 1.25rem;
+}
+main .fourth .right p {
+  font-family: "good";
+  font-weight: 200;
+}
+main .fifth {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.8;
+}
+main .fifth .left {
+  width: 40%;
+}
+main .fifth .left h2 {
+  font-family: "good";
+  font-weight: 600;
+  font-size: 2.25rem;
+}
+main .fifth .left span {
+  font-family: "good";
+  font-size: 1.25rem;
+}
+main .fifth .left p {
+  font-family: "good";
+  font-weight: 200;
+}
+main .fifth .right {
+  width: 40%;
+}
+main .fifth .right img {
+  width: 100%;
+  border-radius: 25px;
+}
+main .sixth {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.8;
+  text-align: end;
+}
+main .sixth .left {
+  width: 40%;
+}
+main .sixth .left img {
+  width: 100%;
+  border-radius: 25px;
+}
+main .sixth .right {
+  width: 40%;
+}
+main .sixth .right h2 {
+  font-family: "good";
+  font-weight: 600;
+  font-size: 2.25rem;
+}
+main .sixth .right span {
+  font-family: "good";
+  font-size: 1.25rem;
+}
+main .sixth .right p {
+  font-family: "good";
+  font-weight: 200;
+}/*# sourceMappingURL=tour.css.map */

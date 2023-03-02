@@ -1,0 +1,219 @@
+.main-banner {
+  width: 100%;
+  height: 50vh;
+  background-image: url(../img/about-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+}
+.main-banner h1 {
+  color: #fff;
+  padding: 4%;
+  font-family: "good";
+  font-weight: 700;
+  font-size: 4rem;
+  text-shadow: 4px 4px 6px rgb(112, 110, 110);
+}
+
+main {
+  width: 1400px;
+  margin: 0 auto;
+}
+main .first {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+}
+main .first .swiper {
+  width: 50%;
+  margin-top: 8%;
+}
+main .first .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .first .swiper-slide img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
+}
+main .first .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: transparent;
+  border: 1px solid #C9F4AA;
+  opacity: 1;
+}
+main .first .swiper-pagination-bullet-active {
+  width: 40px;
+  transition: width 0.5s;
+  border-radius: 5px;
+  background: #C9F4AA;
+  border: 1px solid transparent;
+}
+main .first .text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .first .text span {
+  font-size: 2.5rem;
+  font-family: "good";
+}
+main .second {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+}
+main .second .swiper {
+  width: 50%;
+  margin-top: 8%;
+}
+main .second .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .second .swiper-slide img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
+}
+main .second .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: transparent;
+  border: 1px solid #C9F4AA;
+  opacity: 1;
+}
+main .second .swiper-pagination-bullet-active {
+  width: 40px;
+  transition: width 0.5s;
+  border-radius: 5px;
+  background: #C9F4AA;
+  border: 1px solid transparent;
+}
+main .second .text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .second .text span {
+  font-size: 2.5rem;
+  font-family: "good";
+}
+main .third {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+}
+main .third .swiper {
+  width: 50%;
+  margin-top: 8%;
+}
+main .third .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .third .swiper-slide img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
+}
+main .third .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: transparent;
+  border: 1px solid #C9F4AA;
+  opacity: 1;
+}
+main .third .swiper-pagination-bullet-active {
+  width: 40px;
+  transition: width 0.5s;
+  border-radius: 5px;
+  background: #C9F4AA;
+  border: 1px solid transparent;
+}
+main .third .text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .third .text span {
+  font-size: 2.5rem;
+  font-family: "good";
+}
+main .fourth {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  margin-bottom: 8%;
+}
+main .fourth .swiper {
+  width: 50%;
+  margin-top: 8%;
+}
+main .fourth .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .fourth .swiper-slide img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
+}
+main .fourth .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: transparent;
+  border: 1px solid #C9F4AA;
+  opacity: 1;
+}
+main .fourth .swiper-pagination-bullet-active {
+  width: 40px;
+  transition: width 0.5s;
+  border-radius: 5px;
+  background: #C9F4AA;
+  border: 1px solid transparent;
+}
+main .fourth .text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .fourth .text span {
+  font-size: 2.5rem;
+  font-family: "good";
+}/*# sourceMappingURL=about.css.map */

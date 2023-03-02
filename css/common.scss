@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'good';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'big';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'italic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+$width:1400px;
+
+html,
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  width: 100%;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul img,
+li img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a,
+i,
+em,
+strong,
+b,
+code,
+::after,
+::before {
+  display: inline-block;
+}	
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 9999;
+    padding: 2%;
+    background-color: rgba(73, 72, 72, 0.219);
+    .logo{
+        font-size: 2rem;
+        font-family: 'good';
+        a{
+            color: #fff;
+        }
+    }
+    nav{
+        width: 30%;
+        ul{
+            width:100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            li{
+                font-size:1.25rem;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                a{
+                    color: #fff;
+                    font-family: 'good';
+                    font-weight: 700;
+                }
+            }
+            }
+        }
+        .menu-button{
+            img{
+                cursor: pointer;
+            }
+        }
+      
+
+
+
+    } // header --------------------------------------------------
+
+    footer{
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #181D31;
+        align-items: center;
+        article{
+            width: $width;
+            margin: 0 auto;
+            display: flex;
+            .footer-left{
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                .bank{
+                    display: flex;
+                    justify-content: space-evenly;
+                    text-align: center;
+                    align-items: center;
+                    img{
+                        width: 5%
+                    }
+                    p{
+                        color: #fff;
+                        letter-spacing: 0.4px;
+                    }
+                }
+            
+                .cs{
+                    display: flex;
+                    justify-content: space-evenly;
+                    text-align: center;
+                    align-items: center;
+                    img{
+                        width: 5%
+                    }
+                    p{
+                        color: #fff;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+            .footer-right{
+                width: 40%;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                img{
+                    width: 20%;
+                }:nth-of-type(1){
+                    width: 30%;
+                }
+                :nth-of-type(3){
+                    width: 30%;
+                }
+            }
+        }
+        .footer-bottom{
+            width: 100%;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            span{
+                color: #fff;
+                font-size: 14px;
+            }
+        }
+        
+    }
