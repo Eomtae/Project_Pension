@@ -1,6 +1,6 @@
 $width:1400px;
 .main-banner{
-    width: 100%;
+    max-width: 100%;
     height: 50vh;
     background-image: url(../img/reservation-banner.jpeg);
     background-position: center;
@@ -31,31 +31,37 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
-        img{
-            width: 100%;
-            border-top-left-radius: 20px;            
-            border-top-right-radius: 20px;            
+        justify-content: center;
+        .price{
+            margin-top:5%;
+            img{
+                width: 100%;
+                border-top-left-radius: 20px;            
+                border-top-right-radius: 20px;            
+            }
         }
         h2{
             font-family: 'good';
             letter-spacing: 6.25rem;
             font-size: 2.25rem;
         }
+        
     }
     
     .second{
-        height: 50vh;
+        height: 60vh;
         display: flex;
         align-items: center;
         justify-content: space-between;
         line-height: 1.7;
         text-align: center;
+        margin-bottom: 5%;
+
         p{
             font-family: 'good';
         }
         .left{
-            width: 48%;
+            width: 100%;
             h3{
                 font-size: 1.875rem;
                 font-family: 'good';
@@ -74,7 +80,7 @@ main{
             }
         }
         .right{
-            width: 48%;
+            width: 100%;
             img{
                 width: 100%;
                 border-radius: 25px;
@@ -88,6 +94,8 @@ main{
         justify-content: space-between;
         line-height: 1.7;
         text-align: center;
+        margin-bottom: 10%;
+
         p{
             font-family: 'good';
         }
@@ -108,19 +116,18 @@ main{
         }
     }
 }
-.fourth{
-    article{
-    width: auto;
-    height: 100vh;
-    background-image: url(../img/reservation/caution.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    line-height: 2.7;
+    .fourth{
+        article{
+        height: 100vh;
+        background-image: url(../img/reservation/caution.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        line-height: 2.7;
     h3{
         font-size: 3rem;
         font-family: 'good';
@@ -131,6 +138,6 @@ main{
         font-size: 1.25rem;
         font-weight: 500;
     }
-    }
+}
 }
 

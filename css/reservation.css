@@ -1,5 +1,5 @@
 .main-banner {
-  width: 100%;
+  max-width: 100%;
   height: 50vh;
   background-image: url(../img/reservation-banner.jpeg);
   background-position: center;
@@ -30,9 +30,12 @@ main .first {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
-main .first img {
+main .first .price {
+  margin-top: 5%;
+}
+main .first .price img {
   width: 100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -43,18 +46,19 @@ main .first h2 {
   font-size: 2.25rem;
 }
 main .second {
-  height: 50vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   line-height: 1.7;
   text-align: center;
+  margin-bottom: 5%;
 }
 main .second p {
   font-family: "good";
 }
 main .second .left {
-  width: 48%;
+  width: 100%;
 }
 main .second .left h3 {
   font-size: 1.875rem;
@@ -71,7 +75,7 @@ main .second .left :nth-of-type(4) {
           text-decoration: underline 2px;
 }
 main .second .right {
-  width: 48%;
+  width: 100%;
 }
 main .second .right img {
   width: 100%;
@@ -84,6 +88,7 @@ main .third {
   justify-content: space-between;
   line-height: 1.7;
   text-align: center;
+  margin-bottom: 10%;
 }
 main .third p {
   font-family: "good";
@@ -105,7 +110,6 @@ main .third .right h3 {
 }
 
 .fourth article {
-  width: auto;
   height: 100vh;
   background-image: url(../img/reservation/caution.png);
   background-repeat: no-repeat;

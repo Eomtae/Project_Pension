@@ -44,6 +44,13 @@
   font-size: 1rem;
   font-family: "good";
   border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.first .wrap .choose :focus {
+  transition: all 0.5s;
+  background-color: rgb(167, 143, 113);
+  color: #fff;
 }
 .first .wrap .swiper {
   width: 100%;
@@ -69,6 +76,9 @@
 }
 .first .wrap .swiper-button-next {
   color: rgba(255, 255, 255, 0.5);
+}
+.first .wrap .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background-color: #6e5218;
 }
 
 main {
@@ -125,11 +135,11 @@ main .second .go-res button {
   height: 3.125rem;
   border: solid 1px #000;
   background-color: transparent;
+  transition: all 0.5s;
 }
 main .second .go-res button:hover {
   background: #000;
   color: #fff;
-  transition: 1s;
 }
 
 .third {

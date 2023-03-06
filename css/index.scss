@@ -137,6 +137,13 @@ code,
         align-items: center;
         display: flex;
         justify-content: center;
+        opacity: 0;
+        transform: translateY(100%);
+        transition: 3s;
+        &.active{
+            opacity: 1;
+            transform: translateY(0%);
+        }
         .big-box{
             max-width: $width;
             .first-banner{
@@ -181,12 +188,20 @@ code,
         height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        
         .second-text{
             width: 100%;
             text-align: center;
             font-size: 3rem;
             font-family: 'italic';
+            opacity: 0;
+            transform: translateX(-50%);
+            transition: 3s;
+            &.active{
+                opacity: 1;
+                transform: translateX(0%);
+            }
         }
         .flexbox{
             display: flex;
@@ -194,15 +209,26 @@ code,
             align-items: center;
             justify-content: center;
             text-align: center;
+            opacity: 0;
+            transform: translateY(100%);
+            transition: 2s;
+            &.active{
+                opacity:1;
+                transform:translateY(50%)
+            }
             .box-inner{
                 width: $width;
                 padding: 0 2%;
                 img{
                     width: 100%;
                     border-radius: 20px;
+                    transition: all .5s;
+                    &:hover{
+                        transition: all .5s;
+                        transform: scale(0.9);
+                    }
                 }
                 .box-text{
-                    height: 10vh;
                     text-align: center;
                     display: flex;
                     flex-direction: column;
@@ -229,14 +255,22 @@ code,
         height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        
         .third-text{
             width: 100%;
             text-align: center;
-            font-size: 2rem;
+            font-size: 3rem;
             font-family: 'good';
             display: flex;
             flex-direction: column;
+            opacity: 0;
+            transform: translateY(100%);
+            transition: all ease-in-out 2s;
+            &.active{
+                opacity: 1;
+                transform: translateY(0%);
+            }
             span{
                 text-align: center;
             }
@@ -247,15 +281,29 @@ code,
             margin: 0 auto;
             display: flex;
             justify-content: space-evenly;
+            
             #map{
                 width: 60%;
-                height: 484px;
-                background-color: green;
+                border-radius: 20px;
+                opacity: 0;
+                transform: translateX(-100%);
+                transition: all ease-in-out 2.5s;
+                &.active{
+                    opacity: 1;
+                    transform: translateX(0%);
+                }
             }
             .third-imgbox{
                 width: 30%;
                 display: flex;
                 align-items: center;
+                opacity: 0;
+                transform: translateX(100%);
+                transition: all ease-in-out 2s;
+                &.active{
+                    opacity: 1;
+                    transform: translateX(0);
+                }
                 img{
                     width: 100%;
                     border-radius: 20px;
