@@ -196,11 +196,11 @@ code,
             font-size: 3rem;
             font-family: 'italic';
             opacity: 0;
-            transform: translateX(-50%);
+            transform: translateY(50%);
             transition: 3s;
             &.active{
                 opacity: 1;
-                transform: translateX(0%);
+                transform: translateY(0%);
             }
         }
         .flexbox{
@@ -286,11 +286,11 @@ code,
                 width: 60%;
                 border-radius: 20px;
                 opacity: 0;
-                transform: translateX(-100%);
+                transform: translateY(100%);
                 transition: all ease-in-out 2.5s;
                 &.active{
                     opacity: 1;
-                    transform: translateX(0%);
+                    transform: translateY(0%);
                 }
             }
             .third-imgbox{
@@ -298,11 +298,11 @@ code,
                 display: flex;
                 align-items: center;
                 opacity: 0;
-                transform: translateX(100%);
+                transform: translateY(100%);
                 transition: all ease-in-out 2s;
                 &.active{
                     opacity: 1;
-                    transform: translateX(0);
+                    transform: translateY(0);
                 }
                 img{
                     width: 100%;

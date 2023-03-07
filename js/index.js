@@ -47,6 +47,7 @@ window.addEventListener('scroll',function(){
       elThirdImg.classList.add('active')
   }
 })
+console.log('hgh')
 
 // 지도 API
 		var container = document.getElementById('map');
@@ -65,3 +66,9 @@ var marker = new kakao.maps.Marker({
 
 marker.setMap(map);
 /////////////////////////////////////////
+
+
+
+
+
+

@@ -185,12 +185,12 @@ main .second .second-text {
   font-size: 3rem;
   font-family: "italic";
   opacity: 0;
-  transform: translateX(-50%);
+  transform: translateY(50%);
   transition: 3s;
 }
 main .second .second-text.active {
   opacity: 1;
-  transform: translateX(0%);
+  transform: translateY(0%);
 }
 main .second .flexbox {
   display: flex;
@@ -271,24 +271,24 @@ main .third .third-box #map {
   width: 60%;
   border-radius: 20px;
   opacity: 0;
-  transform: translateX(-100%);
+  transform: translateY(100%);
   transition: all ease-in-out 2.5s;
 }
 main .third .third-box #map.active {
   opacity: 1;
-  transform: translateX(0%);
+  transform: translateY(0%);
 }
 main .third .third-box .third-imgbox {
   width: 30%;
   display: flex;
   align-items: center;
   opacity: 0;
-  transform: translateX(100%);
+  transform: translateY(100%);
   transition: all ease-in-out 2s;
 }
 main .third .third-box .third-imgbox.active {
   opacity: 1;
-  transform: translateX(0);
+  transform: translateY(0);
 }
 main .third .third-box .third-imgbox img {
   width: 100%;
