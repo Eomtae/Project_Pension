@@ -75,6 +75,7 @@ code,
   margin-right: auto;
   font-family: "good";
   font-weight: 900;
+  z-index: 500;
 }
 .banner .swiper-slide {
   text-align: center;
@@ -83,6 +84,8 @@ code,
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
 }
 .banner .swiper-slide .maintext {
   position: relative;
@@ -131,7 +134,7 @@ main .first {
   justify-content: center;
   opacity: 0;
   transform: translateY(100%);
-  transition: 3s;
+  transition: 2s;
 }
 main .first.active {
   opacity: 1;
@@ -186,7 +189,7 @@ main .second .second-text {
   font-family: "italic";
   opacity: 0;
   transform: translateY(50%);
-  transition: 3s;
+  transition: 2s;
 }
 main .second .second-text.active {
   opacity: 1;
@@ -251,7 +254,7 @@ main .third .third-text {
   flex-direction: column;
   opacity: 0;
   transform: translateY(100%);
-  transition: all ease-in-out 2s;
+  transition: all ease-in 2s;
 }
 main .third .third-text.active {
   opacity: 1;
@@ -272,7 +275,7 @@ main .third .third-box #map {
   border-radius: 20px;
   opacity: 0;
   transform: translateY(100%);
-  transition: all ease-in-out 2.5s;
+  transition: all ease-in 2s;
 }
 main .third .third-box #map.active {
   opacity: 1;
@@ -284,7 +287,7 @@ main .third .third-box .third-imgbox {
   align-items: center;
   opacity: 0;
   transform: translateY(100%);
-  transition: all ease-in-out 2s;
+  transition: all ease-in 2s;
 }
 main .third .third-box .third-imgbox.active {
   opacity: 1;

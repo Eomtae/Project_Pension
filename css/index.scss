@@ -73,6 +73,7 @@ code,
     .banner{
         width: 100%;
         height: 100vh;
+        
         .swiper {
             width: 100%;
             height: 100%;
@@ -80,6 +81,7 @@ code,
             margin-right: auto;
             font-family: 'good';
             font-weight: 900;
+            z-index: 500;
           }
       
           .swiper-slide {
@@ -89,6 +91,7 @@ code,
             display: flex;
             justify-content: center;
             align-items: center;
+            cursor: grabbing;
             .maintext {
                 position: relative;
                 width: 100%;
@@ -121,9 +124,11 @@ code,
           }
           .swiper-button-next{
             color: rgb(255, 255, 255,0.3);
+            // z-index: 2;
           }
           .swiper-button-prev{
             color: rgb(255, 255, 255,0.3);
+            // z-index: 2;
           }
           
     
@@ -139,7 +144,7 @@ code,
         justify-content: center;
         opacity: 0;
         transform: translateY(100%);
-        transition: 3s;
+        transition: 2s;
         &.active{
             opacity: 1;
             transform: translateY(0%);
@@ -197,7 +202,7 @@ code,
             font-family: 'italic';
             opacity: 0;
             transform: translateY(50%);
-            transition: 3s;
+            transition: 2s;
             &.active{
                 opacity: 1;
                 transform: translateY(0%);
@@ -266,7 +271,7 @@ code,
             flex-direction: column;
             opacity: 0;
             transform: translateY(100%);
-            transition: all ease-in-out 2s;
+            transition: all ease-in 2s;
             &.active{
                 opacity: 1;
                 transform: translateY(0%);
@@ -287,7 +292,7 @@ code,
                 border-radius: 20px;
                 opacity: 0;
                 transform: translateY(100%);
-                transition: all ease-in-out 2.5s;
+                transition: all ease-in 2s;
                 &.active{
                     opacity: 1;
                     transform: translateY(0%);
@@ -299,7 +304,7 @@ code,
                 align-items: center;
                 opacity: 0;
                 transform: translateY(100%);
-                transition: all ease-in-out 2s;
+                transition: all ease-in 2s;
                 &.active{
                     opacity: 1;
                     transform: translateY(0);
