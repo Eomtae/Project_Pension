@@ -75,6 +75,7 @@ code,
   margin-right: auto;
   font-family: "good";
   font-weight: 900;
+  z-index: 500;
 }
 .banner .swiper-slide {
   text-align: center;
@@ -83,6 +84,7 @@ code,
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: grabbing;
 }
 .banner .swiper-slide .maintext {
   position: relative;
@@ -129,6 +131,13 @@ main .first {
   align-items: center;
   display: flex;
   justify-content: center;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .first.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .first .big-box {
   max-width: 1400px;
@@ -170,13 +179,20 @@ main .second {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 main .second .second-text {
   width: 100%;
   text-align: center;
   font-size: 3rem;
   font-family: "italic";
+  opacity: 0;
+  transform: translateY(50%);
+  transition: 2s;
+}
+main .second .second-text.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .second .flexbox {
   display: flex;
@@ -184,6 +200,13 @@ main .second .flexbox {
   align-items: center;
   justify-content: center;
   text-align: center;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .second .flexbox.active {
+  opacity: 1;
+  transform: translateY(50%);
 }
 main .second .flexbox .box-inner {
   width: 1400px;
@@ -192,9 +215,13 @@ main .second .flexbox .box-inner {
 main .second .flexbox .box-inner img {
   width: 100%;
   border-radius: 20px;
+  transition: all 0.5s;
+}
+main .second .flexbox .box-inner img:hover {
+  transition: all 0.5s;
+  transform: scale(0.9);
 }
 main .second .flexbox .box-inner .box-text {
-  height: 10vh;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -215,15 +242,22 @@ main .third {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 main .third .third-text {
   width: 100%;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "good";
   display: flex;
   flex-direction: column;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all ease-in 2s;
+}
+main .third .third-text.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .third .third-text span {
   text-align: center;
@@ -237,13 +271,26 @@ main .third .third-box {
 }
 main .third .third-box #map {
   width: 60%;
-  height: 484px;
-  background-color: green;
+  border-radius: 20px;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 2s;
+}
+main .third .third-box #map.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .third .third-box .third-imgbox {
   width: 30%;
   display: flex;
   align-items: center;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 2s;
+}
+main .third .third-box .third-imgbox.active {
+  opacity: 1;
+  transform: translateY(0);
 }
 main .third .third-box .third-imgbox img {
   width: 100%;

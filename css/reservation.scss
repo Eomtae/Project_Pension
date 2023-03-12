@@ -32,12 +32,20 @@ main{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        opacity: 0;
+        transform: translateY(100%);
+        transition: 2s;
+        &.active{
+            opacity: 1;
+            transform: translateY(0%);
+        }
         .price{
             margin-top:5%;
             img{
                 width: 100%;
-                border-top-left-radius: 20px;            
-                border-top-right-radius: 20px;            
+                border-top-left-radius: 25px;            
+                border-top-right-radius: 25px;   
+                transition: ease-in-out .5s;  
             }
         }
         h2{
@@ -56,7 +64,13 @@ main{
         line-height: 1.7;
         text-align: center;
         margin-bottom: 5%;
-
+        opacity: 0;
+        transform: translateY(100%);
+        transition: 2s;
+        &.active{
+            opacity: 1;
+            transform: translateY(0%);
+        }
         p{
             font-family: 'good';
         }
@@ -84,6 +98,11 @@ main{
             img{
                 width: 100%;
                 border-radius: 25px;
+                transition: all .5s;
+                &:hover{
+                    transition: all .5s;
+                    scale: 0.9;
+                }
             }
         }
     }
@@ -95,7 +114,13 @@ main{
         line-height: 1.7;
         text-align: center;
         margin-bottom: 10%;
-
+        opacity: 0;
+        transform: translateY(100%);
+        transition: 2s;
+        &.active{
+            opacity: 1;
+            transform: translateY(0%);
+        }
         p{
             font-family: 'good';
         }
@@ -104,6 +129,11 @@ main{
            img{
             width: 100%;
             border-radius: 25px;
+            transition: all .5s;
+            &:hover{
+                transition: all .5s;
+                scale: 0.9;
+            }
            }
         }
         .right{
@@ -117,6 +147,13 @@ main{
     }
 }
     .fourth{
+        opacity: 0;
+        transform: translateY(100%);
+        transition: 2s;
+        &.active{
+            opacity: 1;
+            transform: translateY(0%);
+        }
         article{
         height: 100vh;
         background-image: url(../img/reservation/caution.png);
@@ -128,6 +165,7 @@ main{
         align-items: center;
         justify-content: center;
         line-height: 2.7;
+        
     h3{
         font-size: 3rem;
         font-family: 'good';

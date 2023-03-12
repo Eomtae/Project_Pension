@@ -75,39 +75,43 @@ header{
     position: fixed;
     z-index: 9999;
     padding: 2%;
-    background-color: rgba(73, 72, 72, 0.219);
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: transparent;
+    transition: ease-in .5s;
+    a{
+        color: #fff;
+        &:hover{
+            color:rgb(180, 92, 40);
+        }
+    }
     .logo{
         font-size: 2rem;
         font-family: 'good';
-        a{
-            color: #fff;
-        }
+        // z-index: 998;
     }
-    nav{
-        width: 30%;
-        ul{
-            width:100%;
-            height: 100%;
-            display: flex;
-            justify-content: space-between;
-            li{
-                font-size:1.25rem;
-                height: 100%;
-                display: flex;
-                align-items: center;
-                a{
-                    color: #fff;
-                    font-family: 'good';
-                    font-weight: 700;
-                }
-            }
+    .menu{
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'good';
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    &.active{
+        background-color: #fff;
+        a{
+            color: #000;
+            &:hover{
+                color:rgb(98, 124, 207);
             }
         }
-        .menu-button{
-            img{
-                cursor: pointer;
-            }
-        }
+        transition: all ease-in .5s;
+    }
+    
+        
       
 
 

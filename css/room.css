@@ -1,7 +1,7 @@
 .main-banner {
   width: 100%;
   height: 50vh;
-  background-image: url(../img/room-banner.jpg);
+  background-image: url(../img/room-banner.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,31 +19,50 @@
   font-weight: 700;
   text-shadow: 4px 4px 6px rgb(112, 110, 110);
 }
-
-.first {
+.main-banner .choose {
   width: 100%;
-  height: 100vh;
-  display: flex;
-}
-.first .wrap {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-.first .wrap .choose {
-  width: 1400px;
   margin: 0 auto;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: space-around;
 }
-.first .wrap .choose button {
+.main-banner .choose button {
   width: 100%;
   height: 3.125rem;
   font-size: 1rem;
   font-family: "good";
+  font-weight: bold;
   border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: rgb(243, 229, 212);
+  color: rgb(44, 42, 42);
+  margin: 1.5%;
+}
+.main-banner .choose button.on {
+  background-color: rgb(177, 135, 110);
+  transition: all 0.5s;
+  color: #fff;
+}
+
+.first {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+.first.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+.first .wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .first .wrap .swiper {
   width: 100%;
@@ -53,9 +72,10 @@
   text-align: center;
   font-size: 18px;
   background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+}
+.first .wrap.on {
+  display: block;
 }
 .first .wrap .swiper-slide img {
   display: block;
@@ -70,6 +90,9 @@
 .first .wrap .swiper-button-next {
   color: rgba(255, 255, 255, 0.5);
 }
+.first .wrap .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background-color: #f7f3eb;
+}
 
 main {
   max-width: 1400px;
@@ -83,6 +106,13 @@ main .second {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .second.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .second .second-tab {
   width: 100%;
@@ -110,6 +140,12 @@ main .second .second-box .flexbox {
 }
 main .second .second-box .flexbox img {
   width: 30%;
+  border-radius: 20px;
+  transition: all 1s;
+}
+main .second .second-box .flexbox :hover {
+  transform: scale(1.1);
+  transition: all 1s;
 }
 main .second .go-res {
   width: 100%;
@@ -124,12 +160,13 @@ main .second .go-res button {
   width: 12.5rem;
   height: 3.125rem;
   border: solid 1px #000;
+  border-radius: 25px;
   background-color: transparent;
+  transition: all 0.5s;
 }
 main .second .go-res button:hover {
   background: #000;
   color: #fff;
-  transition: 1s;
 }
 
 .third {
@@ -143,10 +180,21 @@ main .second .go-res button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+.third.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 .third h1 {
   font-size: 2.5rem;
   font-family: "good";
   font-weight: 500;
   color: #f7f3eb;
+  transition: all 0.5s linear;
+}
+.third h1:hover {
+  transform: scale(1.5);
 }/*# sourceMappingURL=room.css.map */

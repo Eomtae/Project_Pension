@@ -31,14 +31,22 @@ main .first {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .first.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .first .price {
   margin-top: 5%;
 }
 main .first .price img {
   width: 100%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  transition: ease-in-out 0.5s;
 }
 main .first h2 {
   font-family: "good";
@@ -53,6 +61,13 @@ main .second {
   line-height: 1.7;
   text-align: center;
   margin-bottom: 5%;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .second.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .second p {
   font-family: "good";
@@ -80,6 +95,11 @@ main .second .right {
 main .second .right img {
   width: 100%;
   border-radius: 25px;
+  transition: all 0.5s;
+}
+main .second .right img:hover {
+  transition: all 0.5s;
+  scale: 0.9;
 }
 main .third {
   height: 50vh;
@@ -89,6 +109,13 @@ main .third {
   line-height: 1.7;
   text-align: center;
   margin-bottom: 10%;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .third.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .third p {
   font-family: "good";
@@ -99,6 +126,11 @@ main .third .left {
 main .third .left img {
   width: 100%;
   border-radius: 25px;
+  transition: all 0.5s;
+}
+main .third .left img:hover {
+  transition: all 0.5s;
+  scale: 0.9;
 }
 main .third .right {
   width: 48%;
@@ -109,6 +141,15 @@ main .third .right h3 {
   letter-spacing: 10px;
 }
 
+.fourth {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+.fourth.active {
+  opacity: 1;
+  transform: translateY(0%);
+}
 .fourth article {
   height: 100vh;
   background-image: url(../img/reservation/caution.png);

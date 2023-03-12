@@ -1,3 +1,19 @@
+@keyframes bop {
+  0% {
+    transform: scale(0.9);
+  }
+  50%, 100% {
+    transform: scale(1);
+  }
+}
+@keyframes bopB {
+  0% {
+    transform: scale(0.9);
+  }
+  80%, 100% {
+    transform: scale(1) rotateZ(-3deg);
+  }
+}
 .main-banner {
   width: 100%;
   height: 50vh;
@@ -28,6 +44,13 @@ main .first {
   width: 100%;
   height: 60vh;
   display: flex;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .first.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .first .swiper {
   width: 50%;
@@ -68,14 +91,32 @@ main .first .text {
   justify-content: center;
   align-items: center;
 }
-main .first .text span {
-  font-size: 2.5rem;
+main .first .text h1 {
+  color: black;
+}
+main .first .text h1 span {
+  font-size: 4rem;
   font-family: "good";
+  transform: scale(0.9);
+  display: inline-block;
+}
+main .first .text h1 span:first-child {
+  animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+}
+main .first .text h1 span:last-child {
+  animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
 }
 main .second {
   width: 100%;
   height: 60vh;
   display: flex;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .second.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .second .swiper {
   width: 50%;
@@ -116,14 +157,32 @@ main .second .text {
   justify-content: center;
   align-items: center;
 }
-main .second .text span {
-  font-size: 2.5rem;
+main .second .text h1 {
+  color: black;
+}
+main .second .text h1 span {
+  font-size: 4rem;
   font-family: "good";
+  transform: scale(0.9);
+  display: inline-block;
+}
+main .second .text h1 span:first-child {
+  animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+}
+main .second .text h1 span:last-child {
+  animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
 }
 main .third {
   width: 100%;
   height: 60vh;
   display: flex;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .third.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .third .swiper {
   width: 50%;
@@ -142,7 +201,7 @@ main .third .swiper-slide img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 50px;
+  border-radius: 80px;
 }
 main .third .swiper-pagination-bullet {
   width: 12px;
@@ -164,15 +223,33 @@ main .third .text {
   justify-content: center;
   align-items: center;
 }
-main .third .text span {
-  font-size: 2.5rem;
+main .third .text h1 {
+  color: black;
+}
+main .third .text h1 span {
+  font-size: 4rem;
   font-family: "good";
+  transform: scale(0.9);
+  display: inline-block;
+}
+main .third .text h1 span:first-child {
+  animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+}
+main .third .text h1 span:last-child {
+  animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
 }
 main .fourth {
   width: 100%;
   height: 60vh;
   display: flex;
   margin-bottom: 8%;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .fourth.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .fourth .swiper {
   width: 50%;
@@ -213,7 +290,18 @@ main .fourth .text {
   justify-content: center;
   align-items: center;
 }
-main .fourth .text span {
-  font-size: 2.5rem;
+main .fourth .text h1 {
+  color: black;
+}
+main .fourth .text h1 span {
+  font-size: 4rem;
   font-family: "good";
+  transform: scale(0.9);
+  display: inline-block;
+}
+main .fourth .text h1 span:first-child {
+  animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+}
+main .fourth .text h1 span:last-child {
+  animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
 }/*# sourceMappingURL=about.css.map */

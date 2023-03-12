@@ -31,6 +31,13 @@ main{
         align-items: center;
         justify-content: space-between;
         line-height: 1.8;
+        opacity: 0;
+        transform: translateY(100%);
+        transition: 2s;
+        &.active{
+            opacity: 1;
+            transform: translateY(0%);
+        }
         .left{
             width: 40%;
             h2{
@@ -52,6 +59,12 @@ main{
             img{
                 width: 100%;
                 border-radius: 25px;
+                transition: .5s;
+                transition: ease-in-out .5s;
+                &:hover{
+                    scale: 1.1;
+                    transition: ease-in-out .5s;
+                }
             }
         }
     }
@@ -63,12 +76,24 @@ main{
         justify-content: space-between;
         line-height: 1.8;
         text-align: end;
+        opacity: 0;
+        transform: translateY(100%);
+        transition: 2s;
+        &.active{
+            opacity: 1;
+            transform: translateY(0%);
+        }
 
         .left{
             width: 40%;
             img{
                 width: 100%;
                 border-radius: 25px;
+                transition: ease-in-out .5s;
+                &:hover{
+                    scale: 1.1;
+                    transition: ease-in-out .5s;
+                }
             }
            
         }
@@ -96,7 +121,13 @@ main{
         align-items: center;
         justify-content: space-between;
         line-height: 1.8;
-
+        opacity: 0;
+        transform: translateY(100%);
+        transition: 2s;
+        &.active{
+            opacity: 1;
+            transform: translateY(0%);
+        }
         .left{
             width: 40%;
             h2{
@@ -118,6 +149,11 @@ main{
             img{
                 width: 100%;
                 border-radius: 25px;
+                transition: ease-in-out .5s;
+                &:hover{
+                    scale: 1.1;
+                    transition: ease-in-out .5s;
+                }
             }
         }
     }
@@ -129,13 +165,24 @@ main{
         justify-content: space-between;
         line-height: 1.8;
         text-align: end;
-
+        opacity: 0;
+        transform: translateY(100%);
+        transition: 2s;
+        &.active{
+            opacity: 1;
+            transform: translateY(0%);
+        }
 
         .left{
             width: 40%;
             img{
                 width: 100%;
                 border-radius: 25px;
+                transition: ease-in-out .5s;
+                &:hover{
+                    scale: 1.1;
+                    transition: ease-in-out .5s;
+                }
             }
            
         }
@@ -163,7 +210,13 @@ main{
         align-items: center;
         justify-content: space-between;
         line-height: 1.8;
-
+        opacity: 0;
+        transform: translateY(100%);
+        transition: 2s;
+        &.active{
+            opacity: 1;
+            transform: translateY(0%);
+        }
         .left{
             width: 40%;
             h2{
@@ -185,6 +238,11 @@ main{
             img{
                 width: 100%;
                 border-radius: 25px;
+                transition: ease-in-out .5s;
+                &:hover{
+                    scale: 1.1;
+                    transition: ease-in-out .5s;
+                }
             }
         }
     }
@@ -196,13 +254,24 @@ main{
         justify-content: space-between;
         line-height: 1.8;
         text-align: end;
-
+        opacity: 0;
+        transform: translateY(100%);
+        transition: 2s;
+        &.active{
+            opacity: 1;
+            transform: translateY(0%);
+        }
 
         .left{
             width: 40%;
             img{
                 width: 100%;
                 border-radius: 25px;
+                transition: ease-in-out .5s;
+                &:hover{
+                    scale: 1.1;
+                    transition: ease-in-out .5s;
+                }
             }
            
         }

@@ -31,6 +31,13 @@ main .first {
   align-items: center;
   justify-content: space-between;
   line-height: 1.8;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .first.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .first .left {
   width: 40%;
@@ -54,6 +61,12 @@ main .first .right {
 main .first .right img {
   width: 100%;
   border-radius: 25px;
+  transition: 0.5s;
+  transition: ease-in-out 0.5s;
+}
+main .first .right img:hover {
+  scale: 1.1;
+  transition: ease-in-out 0.5s;
 }
 main .second {
   width: 100%;
@@ -63,6 +76,13 @@ main .second {
   justify-content: space-between;
   line-height: 1.8;
   text-align: end;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .second.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .second .left {
   width: 40%;
@@ -70,6 +90,11 @@ main .second .left {
 main .second .left img {
   width: 100%;
   border-radius: 25px;
+  transition: ease-in-out 0.5s;
+}
+main .second .left img:hover {
+  scale: 1.1;
+  transition: ease-in-out 0.5s;
 }
 main .second .right {
   width: 40%;
@@ -94,6 +119,13 @@ main .third {
   align-items: center;
   justify-content: space-between;
   line-height: 1.8;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .third.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .third .left {
   width: 40%;
@@ -117,6 +149,11 @@ main .third .right {
 main .third .right img {
   width: 100%;
   border-radius: 25px;
+  transition: ease-in-out 0.5s;
+}
+main .third .right img:hover {
+  scale: 1.1;
+  transition: ease-in-out 0.5s;
 }
 main .fourth {
   width: 100%;
@@ -126,6 +163,13 @@ main .fourth {
   justify-content: space-between;
   line-height: 1.8;
   text-align: end;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .fourth.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .fourth .left {
   width: 40%;
@@ -133,6 +177,11 @@ main .fourth .left {
 main .fourth .left img {
   width: 100%;
   border-radius: 25px;
+  transition: ease-in-out 0.5s;
+}
+main .fourth .left img:hover {
+  scale: 1.1;
+  transition: ease-in-out 0.5s;
 }
 main .fourth .right {
   width: 40%;
@@ -157,6 +206,13 @@ main .fifth {
   align-items: center;
   justify-content: space-between;
   line-height: 1.8;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .fifth.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .fifth .left {
   width: 40%;
@@ -180,6 +236,11 @@ main .fifth .right {
 main .fifth .right img {
   width: 100%;
   border-radius: 25px;
+  transition: ease-in-out 0.5s;
+}
+main .fifth .right img:hover {
+  scale: 1.1;
+  transition: ease-in-out 0.5s;
 }
 main .sixth {
   width: 100%;
@@ -189,6 +250,13 @@ main .sixth {
   justify-content: space-between;
   line-height: 1.8;
   text-align: end;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .sixth.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .sixth .left {
   width: 40%;
@@ -196,6 +264,11 @@ main .sixth .left {
 main .sixth .left img {
   width: 100%;
   border-radius: 25px;
+  transition: ease-in-out 0.5s;
+}
+main .sixth .left img:hover {
+  scale: 1.1;
+  transition: ease-in-out 0.5s;
 }
 main .sixth .right {
   width: 40%;
