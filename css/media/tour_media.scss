@@ -1,0 +1,478 @@
+$width:87.5rem;
+
+@media screen and (min-width:1024px) and (max-width:1400px){
+    .main-banner {
+        width: 100%;
+        height: auto;
+        background-image: url(/img/tour-banner.jpg);
+        flex-direction: column;
+        h1 {
+          padding: 5%;
+          font-size: 3.5rem;
+        }
+      }
+    main{
+        width: auto;
+        .first{
+            width: 100%;
+            height: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        .second{
+            width: 100%;
+            height: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        .third{
+            width: 100%;
+            height: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        .fourth{
+            width: 100%;
+            height: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        .fifth{
+            width: 100%;
+            height: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        .sixth{
+            width: 100%;
+            height: none;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    header{
+        .menu{
+            width: auto;
+            display: block;
+            text-align: end;
+            font-size: 1.25rem;
+        }
+    }
+    .main-banner {
+        width: 100%;
+        height: auto;
+        background-image: url(/img/tour-banner.jpg);
+        flex-direction: column;
+        align-items: center;
+        h1 {
+          padding: 5%;
+          font-size: 3rem;
+        }
+      }
+    main{
+        width: auto;
+        .first{
+            width: 100%;
+            height: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        .second{
+            width: 100%;
+            height: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        .third{
+            width: 100%;
+            height: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        .fourth{
+            width: 100%;
+            height: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        .fifth{
+            width: 100%;
+            height: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        .sixth{
+            width: 100%;
+            height: none;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    
+}
+
+@media screen and (min-width:500px) and (max-width:767px){
+    header{
+        .menu{
+            width: auto;
+            display: block;
+            text-align: end;
+            font-size: 1rem;
+        }
+        .logo{
+            font-size: 1.5rem;
+        }
+    }
+    .main-banner {
+        width: 100%;
+        height: auto;
+        background-image: url(/img/tour-banner.jpg);
+        flex-direction: column;
+        align-items: center;
+        h1 {
+          padding: 5%;
+          font-size: 3rem;
+        }
+      }
+    main{
+        width: auto;
+        .first{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .left{
+                width: 100%;
+                h2{
+                    font-size: 2rem;
+                }
+                p{
+                    display: none;
+                }
+            }
+            .right{
+                width: 80%;
+            }
+        }
+        .second{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .left{
+                width: 80%;
+            }
+            .right{
+                width: 100%;
+                h2{
+                    font-size: 2rem;
+                }
+                p{
+                    display: none;
+                }
+            }
+        }
+        .third{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .left{
+                width: 100%;
+                h2{
+                    font-size: 2rem;
+                }
+                p{
+                    display: none;
+                }
+            }
+            .right{
+                width: 80%;
+            }
+        }
+        .fourth{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .left{
+                width: 80%;
+               
+            }
+            .right{
+                width: 100%;
+                h2{
+                    font-size: 2rem;
+                }
+                p{
+                    display: none;
+                }
+            }
+        }
+        .fifth{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .left{
+                width: 100%;
+                h2{
+                    font-size: 2rem;
+                }
+                p{
+                    display: none;
+                }
+            }
+            .right{
+                width: 80%;
+            }
+        }
+        .sixth{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .left{
+                width: 80%;
+            }
+            .right{
+                width: 100%;
+                h2{
+                    font-size: 2rem;
+                }
+                p{
+                    display: none;
+                }
+            }
+        }
+    }
+    footer{
+        height: none;
+        article{
+            .footer-left{
+                display: none;
+            }
+            .footer-right{
+                width: 100%;
+            }
+        }
+        .footer-bottom{
+            width: 100%;
+            span{
+                font-size: .75rem;
+            }
+        }
+    } 
+}
+
+@media screen and (min-width:290px) and (max-width:499px){
+    header{
+        .menu{
+            width: auto;
+            display: block;
+            text-align: end;
+            font-size: 0.625rem;
+        }
+        .logo{
+            font-size: 1rem;
+        }
+    }
+    .main-banner {
+        width: 100%;
+        height: auto;
+        background-image: url(/img/tour-banner.jpg);
+        flex-direction: column;
+        align-items: center;
+        h1 {
+          padding: 5%;
+          font-size: 1.75rem;
+        }
+      }
+    main{
+        width: auto;
+        .first{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .left{
+                width: 100%;
+                h2{
+                    font-size: 1.5rem;
+                }
+                span{
+                    font-size:1rem;
+                }
+                p{
+                    display: none;
+                }
+            }
+            .right{
+                width: 80%;
+            }
+        }
+        .second{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .left{
+                width: 80%;
+            }
+            .right{
+                width: 100%;
+                h2{
+                    font-size: 1.5rem;
+                }
+                span{
+                    font-size:1rem;
+                }
+                p{
+                    display: none;
+                }
+            }
+        }
+        .third{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .left{
+                width: 100%;
+                h2{
+                    font-size: 1.5rem;
+                }
+                span{
+                    font-size:1rem;
+                }
+                p{
+                    display: none;
+                }
+            }
+            .right{
+                width: 80%;
+            }
+        }
+        .fourth{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .left{
+                width: 80%;
+               
+            }
+            .right{
+                width: 100%;
+                h2{
+                    font-size: 1.5rem;
+                }
+                span{
+                    font-size:1rem;
+                }
+                p{
+                    display: none;
+                }
+            }
+        }
+        .fifth{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .left{
+                width: 100%;
+                h2{
+                    font-size: 1.5rem;
+                }
+                span{
+                    font-size:1rem;
+                }
+                p{
+                    display: none;
+                }
+            }
+            .right{
+                width: 80%;
+            }
+        }
+        .sixth{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .left{
+                width: 80%;
+            }
+            .right{
+                width: 100%;
+                h2{
+                    font-size: 1.5rem;
+                }
+                span{
+                    font-size:1rem;
+                }
+                p{
+                    display: none;
+                }
+            }
+        }
+    }
+    footer{
+        height: none;
+        article{
+            .footer-left{
+                display: none;
+            }
+            .footer-right{
+                width: 100%;
+            }
+        }
+        .footer-bottom{
+            width: 100%;
+            span{
+                font-size: .75rem;
+            }
+        }
+    } 
+}

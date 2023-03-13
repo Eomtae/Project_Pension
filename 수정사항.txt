@@ -1,1 +1,36 @@
-main페이지 first 이미지 2개 애니메이션
+500-1024
+header{
+        .menu{
+            width: auto;
+            display: block;
+            text-align: end;
+        }
+    }
+footer{
+    height: none;
+    article{
+        .footer-left{
+            display: none;
+        }
+        .footer-right{
+            width: 100%;
+        }
+    }
+    .footer-bottom{
+        width: 100%;
+        span{
+            font-size: .75rem;
+        }
+    }
+}
+
+768부터 메뉴 폰트 font-size: 1.25rem;
+h1 3rem
+
+500부터 메뉴폰트 font-size: 1rem;
+logo : font-size:1.5rem
+h1 : 3rem
+
+290부터 메뉴폰트 font-size: .625rem;
+logo : font-size: 1rem
+h1 : 1.75rem;

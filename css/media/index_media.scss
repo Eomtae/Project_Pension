@@ -1,0 +1,371 @@
+$width:87.5rem;
+
+@media screen and (min-width:1024px) and (max-width:1400px){
+    .banner{
+        width: 100%;
+    } // banner===============================================
+    main{
+        width: 100%;
+    .first{
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        opacity: 0;
+        transform: translateY(100%);
+        transition: 2s;
+        
+        .big-box{
+            max-width: $width;
+            .first-banner{
+                .text{
+                    h1{
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+        
+    } // first ---------------------------------------------------------------------
+}
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    header{
+        .menu{
+            width: auto;
+            display: block;
+            text-align: end;
+            font-size: 1.25rem;
+        }
+    }
+    main{
+    .first{
+        .big-box{
+            .first-banner{
+                .text{
+                    h1{
+                        font-size: 1.875rem;
+                    }
+                }
+            }
+        }
+        
+    } // first ---------------------------------------------------------------------
+}
+}
+
+@media screen and (min-width:500px) and (max-width:767px){
+    header{
+        .menu{
+            width: auto;
+            display: block;
+            text-align: end;
+            font-size: 1rem;
+            .logo{
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .banner{
+          .swiper-slide {
+            .maintext {
+                position: relative;
+                width: 100%;
+                height: 100%; 
+                overflow: hidden;
+                p {
+                    font-size: 2rem;
+                    bottom: 47%; 
+                }
+                
+            }
+
+          }
+    } // banner===============================================
+    main{
+    .first{
+        height: none;
+        .big-box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            .first-banner{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                .text{
+                    h1{
+                        font-size: 1.25rem;
+                    }
+                    span{
+                        font-size: 12px;
+                    }
+                    p{
+                        display:none;
+                    }
+                }
+                .img-box{
+                    width: 100%;
+                    img{
+                        width: 80%;
+                        border-radius: 20px;
+                    }
+                }
+               
+            }
+            :nth-of-type(2){
+                flex-direction: column;
+            }
+        }
+        
+    } // first ---------------------------------------------------------------------
+
+    .second{
+        width: 100%;
+        height: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+        .second-text{
+            font-size: 2.5rem;
+        }
+        .flexbox{
+            .box-inner{
+                .box-text{
+                    span{
+                        font-size: 1rem;
+                    }
+                    p{
+                        display: none;
+                    }
+                }
+            }
+            
+        }
+        
+    }
+
+    .third{
+        height: none;
+        .third-text{
+            width: 100%;
+            text-align: center;
+            font-size: 2rem;
+            span{
+                text-align: center;
+            }
+        }
+        .third-box{
+            width: 100%;
+            height: 50vh;
+            display: flex;
+            // flex-direction: column;
+            justify-content: center;
+            
+            #map{
+                width: 100%;
+                border-radius: 20px;
+            }
+            .third-imgbox{
+                display: none;
+            }
+        }
+    }
+}
+footer{
+    height: none;
+    article{
+        .footer-left{
+            display: none;
+        }
+        .footer-right{
+            width: 100%;
+        }
+    }
+    .footer-bottom{
+        width: 100%;
+        span{
+            font-size: .75rem;
+        }
+    }
+    
+}
+}
+
+@media screen and (min-width:290px)and (max-width:499px){
+    header{
+        .menu{
+            width: auto;
+            display: block;
+            text-align: end;
+            font-size: 0.625rem;
+        }
+        .logo{
+            font-size: 1rem;
+        }
+    }
+
+    .banner{
+        height: none;
+          .swiper-slide {
+            .maintext {
+                img {
+                    display: block; 
+                    height:100%;
+                }
+                p {
+                    position: absolute;
+                    bottom:47%; 
+                    left:0; 
+                    width:100%; 
+                    opacity:1; 
+                    text-align: center;
+                    color:#fff; 
+                    font-size: 2rem; 
+                    padding: 0.625rem;
+                }
+                
+            }
+
+          }
+          .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+          .swiper-button-next{
+            color: rgb(255, 255, 255,0.3);
+            // z-index: 2;
+          }
+          .swiper-button-prev{
+            color: rgb(255, 255, 255,0.3);
+            // z-index: 2;
+          }
+          
+    
+    } // banner===============================================
+    main{
+    .first{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        .big-box{
+            max-width: $width;
+            .first-banner{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                text-align: center;
+                .text{
+                    width:100%;
+                    line-height: 1.7;
+                    h1{
+                        font-size: 1.5rem;
+                    }
+                    p{
+                        display: none;
+                    }
+                }
+                .img-box{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                        border-radius: 20px;
+                    }
+                }
+               
+            }
+            :nth-of-type(2){
+                flex-direction: column;
+            }
+        }
+        
+    } // first ---------------------------------------------------------------------
+
+    .second{
+        width: 100%;
+        height: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+        .second-text{
+            font-size: 1.5rem;
+        }
+        .flexbox{
+            display: flex;
+            flex-direction: column;
+            .box-inner{
+                width: auto;
+                img{
+                    width: 30%;
+                    border-radius: 50%;
+                }
+                .box-text{
+                    span{
+                        font-size: 1rem;
+                    }
+                    p{
+                        display: none;
+                    }
+                }
+            }
+            
+        }
+        
+    }
+
+    .third{
+        height: none;
+        .third-text{
+            width: 100%;
+            text-align: center;
+            font-size: 1.5rem;
+            span{
+                text-align: center;
+            }
+        }
+        .third-box{
+            width: 100%;
+            height: none;
+            display: flex;
+            justify-content: center;
+            
+            #map{
+                width: 100%;
+            }
+            .third-imgbox{
+                display: none;
+            }
+        }
+    }
+}
+footer{
+    height: none;
+    article{
+        .footer-left{
+            display: none;
+        }
+        .footer-right{
+            width: 100%;
+        }
+    }
+    .footer-bottom{
+        width: 100%;
+        span{
+            font-size: .75rem;
+        }
+    }
+    
+}
+
+}
