@@ -47,11 +47,6 @@ main .first .price img {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   transition: ease-in-out 0.5s;
-  cursor: zoom-in;
-}
-main .first .price img:hover {
-  scale: 1.2;
-  transition: ease-in-out 0.5s;
 }
 main .first h2 {
   font-family: "good";
