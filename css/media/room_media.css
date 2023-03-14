@@ -2,6 +2,7 @@
   .main-banner {
     width: 100%;
     height: auto;
+    background-image: url(../../img/room-banner.jpeg);
   }
   .main-banner h1 {
     padding: 5%;
@@ -54,6 +55,7 @@
     width: 100%;
     height: auto;
     align-items: center;
+    background-image: url(../../img/room-banner.jpeg);
   }
   .main-banner h1 {
     font-size: 3rem;
@@ -107,6 +109,7 @@
     width: 100%;
     height: auto;
     align-items: center;
+    background-image: url(../../img/room-banner.jpeg);
   }
   .main-banner h1 {
     font-size: 3rem;
@@ -177,6 +180,7 @@
     width: 100%;
     height: auto;
     align-items: center;
+    background-image: url(../../img/room-banner.jpeg);
   }
   .main-banner h1 {
     font-size: 1.75rem;
