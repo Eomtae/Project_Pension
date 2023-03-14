@@ -34,6 +34,7 @@ main .first {
   opacity: 0;
   transform: translateY(100%);
   transition: 2s;
+  word-break: keep-all;
 }
 main .first.active {
   opacity: 1;
@@ -79,6 +80,7 @@ main .second {
   opacity: 0;
   transform: translateY(100%);
   transition: 2s;
+  word-break: keep-all;
 }
 main .second.active {
   opacity: 1;
@@ -122,6 +124,7 @@ main .third {
   opacity: 0;
   transform: translateY(100%);
   transition: 2s;
+  word-break: keep-all;
 }
 main .third.active {
   opacity: 1;
@@ -166,6 +169,7 @@ main .fourth {
   opacity: 0;
   transform: translateY(100%);
   transition: 2s;
+  word-break: keep-all;
 }
 main .fourth.active {
   opacity: 1;
@@ -209,6 +213,7 @@ main .fifth {
   opacity: 0;
   transform: translateY(100%);
   transition: 2s;
+  word-break: keep-all;
 }
 main .fifth.active {
   opacity: 1;
@@ -253,6 +258,7 @@ main .sixth {
   opacity: 0;
   transform: translateY(100%);
   transition: 2s;
+  word-break: keep-all;
 }
 main .sixth.active {
   opacity: 1;

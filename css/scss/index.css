@@ -5,65 +5,11 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "big";
-  src: url("https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: "italic";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
-html,
-body {
-  margin: 0 auto;
-  font-size: 16px;
-  width: 100%;
-  padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-figure {
-  margin: 0;
-}
-
-ul,
-li {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-ul img,
-li img {
-  vertical-align: middle;
-}
-
-a {
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-a,
-i,
-em,
-strong,
-b,
-code,
-::after,
-::before {
-  display: inline-block;
-}
-
 .banner {
   width: 100%;
   height: 100vh;
@@ -107,6 +53,49 @@ code,
   color: #fff;
   font-size: 3rem;
   padding: 0.625rem;
+  transform: translateY(50%);
+  -webkit-animation: fade 1.5s ease-in-out;
+          animation: fade 1.5s ease-in-out;
+}
+@-webkit-keyframes fade {
+  0% {
+    filter: blur(7px);
+    -moz-filter: blur(7px);
+    -webkit-filter: blur(7px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(7px);
+    -moz-filter: blur(7px);
+    -webkit-filter: blur(7px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    -moz-filter: blur(0);
+    -webkit-filter: blur(0);
+    opacity: 0.9;
+  }
+}
+@keyframes fade {
+  0% {
+    filter: blur(7px);
+    -moz-filter: blur(7px);
+    -webkit-filter: blur(7px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(7px);
+    -moz-filter: blur(7px);
+    -webkit-filter: blur(7px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    -moz-filter: blur(0);
+    -webkit-filter: blur(0);
+    opacity: 0.9;
+  }
 }
 .banner .swiper-slide img {
   display: block;
@@ -207,7 +196,7 @@ main .second .flexbox {
 }
 main .second .flexbox.active {
   opacity: 1;
-  transform: translateY(50%);
+  transform: translateY(0%);
 }
 main .second .flexbox .box-inner {
   width: 87.5rem;

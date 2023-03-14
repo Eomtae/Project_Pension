@@ -4,12 +4,7 @@
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'big';
-    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
 @font-face {
     font-family: 'italic';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
@@ -18,7 +13,8 @@
 }
 
 
-$width:1400px;
+$width:87.5rem;
+$font-family:'good';
 
 html,
 body {
@@ -89,16 +85,16 @@ header{
     .logo{
         font-size: 2rem;
         font-family: 'good';
-        // z-index: 998;
     }
     .menu{
         width: 40%;
         display: flex;
         justify-content: space-between;
         font-family: 'good';
-        font-weight: 600;
+        font-weight:300;
         font-size: 1.5rem;
         color: #fff;
+        
     }
     &.active{
         background-color: #fff;
