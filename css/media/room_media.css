@@ -31,7 +31,7 @@
   .third {
     width: 100%;
     height: 80vh;
-    background-image: url(/img/room/third-room.jpg);
+    background-image: url(../../img/room/third-room.jpg);
   }
   .third h1 {
     font-size: 2rem;
@@ -90,6 +90,7 @@
   }
   .third {
     height: 80vh;
+    background-image: url(../../img/room/third-room.jpg);
   }
   .third h1 {
     font-size: 2rem;
@@ -146,6 +147,7 @@
   }
   .third {
     height: 80vh;
+    background-image: url(../../img/room/third-room.jpg);
   }
   .third h1 {
     font-size: 1.5rem;
@@ -221,6 +223,7 @@
   }
   .third {
     height: 20vh;
+    background-image: url(../../img/room/third-room.jpg);
   }
   .third h1 {
     font-size: 0.75rem;
