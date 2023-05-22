@@ -10,11 +10,11 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <!--Swiper-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/room.css">
+    <link rel="stylesheet" href="./css/scss/common.css">
+    <link rel="stylesheet" href="./css/scss/room.css">
     <script defer src="js/room.js"></script>
     <script defer src="./js/common.js"></script>
-    <link rel="stylesheet" href="./css/room-media.css"><!--반응형-->
+    <link rel="stylesheet" href="./css/media/room_media.css"><!--반응형-->
     <title>::객실 안내::</title>
 </head>
 
@@ -92,7 +92,18 @@
 
 
     <script>
-    
+    var swiper = new Swiper(".mySwiper", {
+            effect: "fade",
+            pagination: {
+                clickable: true,
+                el: ".swiper-pagination",
+                type: "progressbar",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
     </script>
     <!--ROOM Swiper-->
 </body>

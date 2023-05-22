@@ -127,7 +127,7 @@ header{
         background-color: #181D31;
         align-items: center;
         article{
-            width: $width;
+            max-width: $width;
             margin: 0 auto;
             display: flex;
             .footer-left{

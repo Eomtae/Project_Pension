@@ -1,7 +1,7 @@
 .main-banner {
   width: 100%;
   height: 50vh;
-  background-image: url(../img/room-banner.jpeg);
+  background-image: url(/project_pension/img/room-banner.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

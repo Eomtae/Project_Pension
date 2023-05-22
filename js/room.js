@@ -35,19 +35,6 @@ function init(){
             elChoose[0].dispatchEvent(event); //첫번째 초기값 자동으로 나타나게끔
         }
         
-        //////////////////////////스와이퍼
-        var swiper = new Swiper(".mySwiper", {
-            effect: "fade",
-            pagination: {
-                el: ".swiper-pagination",
-                type: "progressbar",
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });/////////////////////////스와이퍼
-
 
     ///// 스크롤 이벤트
         const elFirst = document.querySelector('.first')

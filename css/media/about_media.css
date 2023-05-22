@@ -1,0 +1,541 @@
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .main-banner {
+    width: 100%;
+    height: auto;
+    background-image: url(/project_pension/img/about-banner.png);
+    flex-direction: column;
+  }
+  .main-banner h1 {
+    padding: 5%;
+    font-size: 3.5rem;
+  }
+  main {
+    width: auto;
+  }
+  main .first {
+    width: 100%;
+    height: none;
+    display: flex;
+  }
+  main .first .swiper-slide img {
+    width: 80%;
+  }
+  main .first .text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .first .text h1 {
+    color: black;
+  }
+  main .first .text h1 span {
+    font-size: 3rem;
+  }
+  main .second {
+    width: 100%;
+    height: none;
+    display: flex;
+  }
+  main .second .swiper-slide img {
+    width: 80%;
+  }
+  main .second .text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .second .text h1 {
+    color: black;
+  }
+  main .second .text h1 span {
+    font-size: 3rem;
+  }
+  main .third {
+    width: 100%;
+    height: none;
+    display: flex;
+  }
+  main .third .swiper-slide img {
+    width: 80%;
+  }
+  main .third .text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .third .text h1 {
+    color: black;
+  }
+  main .third .text h1 span {
+    font-size: 3rem;
+  }
+  main .fourth {
+    width: 100%;
+    height: none;
+  }
+  main .fourth .swiper-slide img {
+    width: 80%;
+  }
+  main .fourth .text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .fourth .text h1 {
+    color: black;
+  }
+  main .fourth .text h1 span {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header .menu {
+    width: auto;
+    display: block;
+    text-align: end;
+    font-size: 1.25rem;
+  }
+  .main-banner {
+    width: 100%;
+    height: auto;
+    background-image: url(/img/about-banner.png);
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-banner h1 {
+    padding: 5%;
+    font-size: 3rem;
+  }
+  main {
+    width: auto;
+  }
+  main .first {
+    width: 100%;
+    height: none;
+    display: flex;
+  }
+  main .first .swiper-slide img {
+    width: 80%;
+  }
+  main .first .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+  main .first .swiper-pagination-bullet-active {
+    width: 30px;
+  }
+  main .first .text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .first .text h1 {
+    color: black;
+  }
+  main .first .text h1 span {
+    font-size: 2.5rem;
+  }
+  main .second {
+    width: 100%;
+    height: none;
+    display: flex;
+  }
+  main .second .swiper-slide img {
+    width: 80%;
+  }
+  main .second .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+  main .second .swiper-pagination-bullet-active {
+    width: 30px;
+  }
+  main .second .text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .second .text h1 {
+    color: black;
+  }
+  main .second .text h1 span {
+    font-size: 2.5rem;
+  }
+  main .third {
+    width: 100%;
+    height: none;
+    display: flex;
+  }
+  main .third .swiper-slide img {
+    width: 80%;
+  }
+  main .third .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+  main .third .swiper-pagination-bullet-active {
+    width: 30px;
+  }
+  main .third .text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .third .text h1 {
+    color: black;
+  }
+  main .third .text h1 span {
+    font-size: 2.5rem;
+  }
+  main .fourth {
+    width: 100%;
+    height: none;
+  }
+  main .fourth .swiper-slide img {
+    width: 80%;
+  }
+  main .fourth .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+  main .fourth .swiper-pagination-bullet-active {
+    width: 30px;
+  }
+  main .fourth .text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .fourth .text h1 {
+    color: black;
+  }
+  main .fourth .text h1 span {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  header .menu {
+    width: auto;
+    display: block;
+    text-align: end;
+    font-size: 1rem;
+  }
+  header .logo {
+    font-size: 1.5rem;
+  }
+  .main-banner {
+    width: 100%;
+    height: auto;
+    background-image: url(/img/about-banner.png);
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-banner h1 {
+    padding: 5%;
+    font-size: 3rem;
+  }
+  main {
+    width: auto;
+  }
+  main .first {
+    width: 100%;
+    height: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .first .swiper-slide img {
+    width: 100%;
+  }
+  main .first .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+  main .first .swiper-pagination-bullet-active {
+    width: 30px;
+  }
+  main .first .text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .first .text h1 {
+    color: black;
+  }
+  main .first .text h1 span {
+    font-size: 2rem;
+  }
+  main .second {
+    width: 100%;
+    height: none;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  main .second .swiper-slide img {
+    width: 100%;
+  }
+  main .second .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+  main .second .swiper-pagination-bullet-active {
+    width: 30px;
+  }
+  main .second .text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .second .text h1 {
+    color: black;
+  }
+  main .second .text h1 span {
+    font-size: 2rem;
+  }
+  main .third {
+    width: 100%;
+    height: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .third .swiper-slide img {
+    width: 100%;
+  }
+  main .third .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+  main .third .swiper-pagination-bullet-active {
+    width: 30px;
+  }
+  main .third .text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .third .text h1 {
+    color: black;
+  }
+  main .third .text h1 span {
+    font-size: 2rem;
+  }
+  main .fourth {
+    width: 100%;
+    height: none;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  main .fourth .swiper-slide img {
+    width: 100%;
+  }
+  main .fourth .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+  main .fourth .swiper-pagination-bullet-active {
+    width: 30px;
+  }
+  main .fourth .text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .fourth .text h1 {
+    color: black;
+  }
+  main .fourth .text h1 span {
+    font-size: 2rem;
+  }
+  footer {
+    height: none;
+  }
+  footer article .footer-left {
+    display: none;
+  }
+  footer article .footer-right {
+    width: 100%;
+  }
+  footer .footer-bottom {
+    width: 100%;
+  }
+  footer .footer-bottom span {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (min-width: 290px) and (max-width: 499px) {
+  header .menu {
+    width: auto;
+    display: block;
+    text-align: end;
+    font-size: 0.625rem;
+  }
+  header .logo {
+    font-size: 1rem;
+  }
+  .main-banner {
+    width: 100%;
+    height: auto;
+    background-image: url(/img/about-banner.png);
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-banner h1 {
+    padding: 5%;
+    font-size: 1.75rem;
+  }
+  main {
+    width: auto;
+  }
+  main .first {
+    width: 100%;
+    height: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  main .first .swiper {
+    width: auto;
+    margin-top: 0;
+  }
+  main .first .swiper-slide img {
+    width: 90%;
+  }
+  main .first .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+  main .first .swiper-pagination-bullet-active {
+    width: 30px;
+  }
+  main .first .text {
+    width: 100%;
+    text-align: center;
+  }
+  main .first .text h1 span {
+    font-size: 2rem;
+  }
+  main .second {
+    width: 100%;
+    height: none;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  main .second .swiper {
+    width: auto;
+    margin-top: 0;
+  }
+  main .second .swiper-slide img {
+    width: 90%;
+  }
+  main .second .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+  main .second .swiper-pagination-bullet-active {
+    width: 30px;
+  }
+  main .second .text {
+    width: 100%;
+    text-align: center;
+  }
+  main .second .text h1 {
+    color: black;
+  }
+  main .second .text h1 span {
+    font-size: 2rem;
+  }
+  main .third {
+    width: 100%;
+    height: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  main .third .swiper {
+    width: auto;
+    margin-top: 0;
+  }
+  main .third .swiper-slide img {
+    width: 90%;
+  }
+  main .third .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+  main .third .swiper-pagination-bullet-active {
+    width: 30px;
+  }
+  main .third .text {
+    width: 100%;
+    text-align: center;
+  }
+  main .third .text h1 {
+    color: black;
+  }
+  main .third .text h1 span {
+    font-size: 2rem;
+  }
+  main .fourth {
+    width: 100%;
+    height: none;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  main .fourth .swiper {
+    width: auto;
+    margin-top: 0;
+  }
+  main .fourth .swiper-slide img {
+    width: 90%;
+  }
+  main .fourth .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+  main .fourth .swiper-pagination-bullet-active {
+    width: 30px;
+  }
+  main .fourth .text {
+    width: 100%;
+    text-align: center;
+  }
+  main .fourth .text h1 {
+    color: black;
+  }
+  main .fourth .text h1 span {
+    font-size: 2rem;
+  }
+  footer {
+    height: none;
+  }
+  footer article .footer-left {
+    display: none;
+  }
+  footer article .footer-right {
+    width: 100%;
+  }
+  footer .footer-bottom {
+    width: 100%;
+  }
+  footer .footer-bottom span {
+    font-size: 0.75rem;
+  }
+}/*# sourceMappingURL=about_media.css.map */
