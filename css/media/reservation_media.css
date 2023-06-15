@@ -2,7 +2,6 @@
   .main-banner {
     width: 100%;
     height: auto;
-    background-image: url(../../img/reservation-banner.jpeg);
     flex-direction: column;
   }
   .main-banner h1 {
@@ -160,7 +159,6 @@
   .main-banner {
     width: 100%;
     height: auto;
-    background-image: url(../../img/reservation-banner.jpeg);
     flex-direction: column;
     align-items: center;
   }
@@ -366,7 +364,6 @@
   .main-banner {
     width: 100%;
     height: auto;
-    background-image: url(../../img/reservation-banner.jpeg);
     flex-direction: column;
     align-items: center;
   }
@@ -622,7 +619,6 @@
   .main-banner {
     width: 100%;
     height: auto;
-    background-image: url(../../img/reservation-banner.jpeg);
     flex-direction: column;
     align-items: center;
   }
