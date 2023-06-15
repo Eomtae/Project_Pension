@@ -1,1 +1,410 @@
-/*# sourceMappingURL=room_media.css.map */
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .main-banner {
+    width: 100%;
+    height: auto;
+    background-image: url(/project_pension/img/room-banner.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+  }
+  .main-banner h1 {
+    padding: 5%;
+    font-size: 3rem;
+  }
+  .main-banner .choose {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .main-banner .choose button {
+    width: 100%;
+    height: 3.125rem;
+    font-size: 0.8rem;
+  }
+  .first {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+  }
+  main {
+    max-width: 87.5rem;
+    margin: 0 auto;
+  }
+  main .second {
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+  }
+  main .second .second-tab {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 0;
+  }
+  main .second .second-tab span {
+    font-size: 1.5rem;
+  }
+  main .second .second-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  main .second .second-box .flexbox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+  }
+  main .second .second-box .flexbox img {
+    width: 30%;
+    border-radius: 20px;
+    transition: all 1s;
+  }
+  main .second .second-box .flexbox :hover {
+    transform: scale(1.1);
+    transition: all 1s;
+  }
+  .third {
+    width: 100%;
+    height: 50vh;
+  }
+  .third h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header .menu {
+    width: auto;
+    display: block;
+    text-align: end;
+    font-size: 1.25rem;
+  }
+  .main-banner {
+    width: 100%;
+    height: auto;
+    background-image: url(/project_pension/img/room-banner.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .main-banner h1 {
+    padding: 5%;
+    font-size: 3rem;
+  }
+  .main-banner .choose {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .main-banner .choose button {
+    width: 100%;
+    height: 3.125rem;
+    font-size: 0.8rem;
+    word-break: keep-all;
+  }
+  .first {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+  }
+  main {
+    max-width: 87.5rem;
+    margin: 0 auto;
+  }
+  main .second {
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+  }
+  main .second .second-tab {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 0;
+  }
+  main .second .second-tab span {
+    font-size: 1.5rem;
+  }
+  main .second .second-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  main .second .second-box .flexbox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+  }
+  main .second .second-box .flexbox img {
+    width: 30%;
+    border-radius: 20px;
+    transition: all 1s;
+  }
+  main .second .second-box .flexbox :hover {
+    transform: scale(1.1);
+    transition: all 1s;
+  }
+  .third {
+    width: 100%;
+    height: 50vh;
+  }
+  .third h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  header .menu {
+    width: auto;
+    display: block;
+    text-align: end;
+    font-size: 1rem;
+  }
+  header .logo {
+    font-size: 1.5rem;
+  }
+  .main-banner {
+    width: 100%;
+    height: auto;
+    background-image: url(/project_pension/img/room-banner.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .main-banner h1 {
+    padding: 5%;
+    font-size: 3rem;
+  }
+  .main-banner .choose {
+    width: 15%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .main-banner .choose button {
+    width: 100%;
+    height: 3.125rem;
+    font-size: 0.8rem;
+    word-break: keep-all;
+  }
+  .first {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  main {
+    max-width: 87.5rem;
+    margin: 0 auto;
+  }
+  main .second {
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+  }
+  main .second .second-tab {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 0;
+  }
+  main .second .second-tab img {
+    width: 50%;
+  }
+  main .second .second-tab span {
+    font-size: 1rem;
+  }
+  main .second .second-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  main .second .second-box .flexbox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+  }
+  main .second .second-box .flexbox img {
+    width: 30%;
+    border-radius: 20px;
+    transition: all 1s;
+  }
+  main .second .second-box .flexbox :hover {
+    transform: scale(1.1);
+    transition: all 1s;
+  }
+  .third {
+    width: 100%;
+    height: 20vh;
+  }
+  .third h1 {
+    font-size: 1rem;
+  }
+  footer {
+    height: none;
+  }
+  footer article .footer-left {
+    display: none;
+  }
+  footer article .footer-right {
+    width: 100%;
+  }
+  footer .footer-bottom {
+    width: 100%;
+  }
+  footer .footer-bottom span {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (min-width: 290px) and (max-width: 499px) {
+  header .menu {
+    width: auto;
+    display: block;
+    text-align: end;
+    font-size: 0.625rem;
+  }
+  header .logo {
+    font-size: 1rem;
+  }
+  .main-banner {
+    width: 100%;
+    height: auto;
+    background-image: url(/project_pension/img/room-banner.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .main-banner h1 {
+    padding: 5%;
+    font-size: 1.75rem;
+  }
+  .main-banner .choose {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .main-banner .choose button {
+    width: 100%;
+    height: 2rem;
+    font-size: 0.5rem;
+    word-break: keep-all;
+    overflow: hidden;
+  }
+  .first {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  main {
+    max-width: 87.5rem;
+    margin: 0 auto;
+  }
+  main .second {
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+  }
+  main .second .second-tab {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 0;
+  }
+  main .second .second-tab img {
+    width: 50%;
+  }
+  main .second .second-tab span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .second .second-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  main .second .second-box .flexbox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+  }
+  main .second .second-box .flexbox img {
+    width: 30%;
+    border-radius: 20px;
+    transition: all 1s;
+  }
+  main .second .second-box .flexbox :hover {
+    transform: scale(1.1);
+    transition: all 1s;
+  }
+  .third {
+    width: 100%;
+    height: 10vh;
+  }
+  .third h1 {
+    font-size: 0.5rem;
+  }
+  footer {
+    height: auto;
+  }
+  footer article .footer-left {
+    display: none;
+  }
+  footer article .footer-right {
+    width: 100%;
+  }
+  footer .footer-bottom {
+    width: 100%;
+  }
+  footer .footer-bottom span {
+    font-size: 0.75rem;
+  }
+}/*# sourceMappingURL=room_media.css.map */

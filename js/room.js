@@ -25,7 +25,7 @@ function init(){
                     Imgbox[key].forEach((obj, key) => {
                         elSwiper.innerHTML +=
                         `<div class="swiper-slide">
-                        <img src="${obj.url}" alt="">
+                        <img src="${obj.url}" alt="호수">
                         </div>`
                     })
                 })

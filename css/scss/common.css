@@ -98,7 +98,7 @@ header .menu {
   color: #fff;
 }
 header.active {
-  background-color: #fff;
+  background-color: #efefef;
   transition: all ease-in 0.5s;
 }
 header.active a {

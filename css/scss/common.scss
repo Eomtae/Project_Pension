@@ -101,7 +101,7 @@ header{
         color: #fff;
     }
     &.active{
-        background-color: #fff;
+        background-color:#efefef;
         a{
             color: #000;
             &:hover{
@@ -110,12 +110,6 @@ header{
         }
         transition: all ease-in .5s;
     }
-    
-        
-      
-
-
-
     } // header --------------------------------------------------
 
     footer{
@@ -189,5 +183,4 @@ header{
                 font-size: 14px;
             }
         }
-        
     }

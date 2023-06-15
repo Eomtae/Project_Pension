@@ -39,6 +39,16 @@ main .first.active {
   opacity: 1;
   transform: translateY(0%);
 }
+main .first .price-part {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+main .first .price-part h2 {
+  font-family: "good";
+  font-size: 2.25rem;
+}
 main .first .price {
   margin-top: 5%;
 }
@@ -47,11 +57,6 @@ main .first .price img {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   transition: ease-in-out 0.5s;
-}
-main .first h2 {
-  font-family: "good";
-  letter-spacing: 6.25rem;
-  font-size: 2.25rem;
 }
 main .second {
   height: 60vh;
@@ -85,7 +90,7 @@ main .second .left span {
   font-weight: 400;
   font-size: 1.875rem;
 }
-main .second .left :nth-of-type(4) {
+main .second .left p:nth-of-type(4) {
   -webkit-text-decoration: underline 2px;
           text-decoration: underline 2px;
 }
@@ -121,7 +126,7 @@ main .third p {
   font-family: "good";
 }
 main .third .left {
-  width: 48%;
+  width: 100%;
 }
 main .third .left img {
   width: 100%;
@@ -133,7 +138,10 @@ main .third .left img:hover {
   scale: 0.9;
 }
 main .third .right {
-  width: 48%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 main .third .right h3 {
   font-size: 1.875rem;
@@ -152,7 +160,7 @@ main .third .right h3 {
 }
 .fourth article {
   height: 100vh;
-  background-image: url(../img/reservation/caution.png);
+  background-image: url(../../img/reservation/caution.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

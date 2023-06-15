@@ -39,6 +39,16 @@ main{
             opacity: 1;
             transform: translateY(0%);
         }
+        .price-part{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            h2{
+                font-family: 'good';
+                font-size: 2.25rem;
+            }
+        }
         .price{
             margin-top:5%;
             img{
@@ -47,11 +57,6 @@ main{
                 border-top-right-radius: 25px;   
                 transition: ease-in-out .5s;  
             }
-        }
-        h2{
-            font-family: 'good';
-            letter-spacing: 6.25rem;
-            font-size: 2.25rem;
         }
         
     }
@@ -88,9 +93,9 @@ main{
                 // background-color: chocolate;
             }
             p{
-
-            }:nth-of-type(4){
-                text-decoration: underline 2px;
+                &:nth-of-type(4){
+                    text-decoration: underline 2px;
+                }
             }
         }
         .right{
@@ -125,7 +130,7 @@ main{
             font-family: 'good';
         }
         .left{
-            width: 48%;
+            width: 100%;
            img{
             width: 100%;
             border-radius: 25px;
@@ -137,7 +142,10 @@ main{
            }
         }
         .right{
-            width: 48%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             h3{
                 font-size: 1.875rem;
                 font-family: 'good';
@@ -156,7 +164,7 @@ main{
         }
         article{
         height: 100vh;
-        background-image: url(../img/reservation/caution.png);
+        background-image: url(../../img/reservation/caution.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

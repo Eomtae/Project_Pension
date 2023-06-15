@@ -175,7 +175,7 @@ main .second .go-res button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../img/room/aaa.jpg);
+  background-image: url(../../img/room/aaa.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -197,4 +197,5 @@ main .second .go-res button:hover {
 }
 .third h1:hover {
   transform: scale(1.5);
+  transition: all 0.5s linear;
 }/*# sourceMappingURL=room.css.map */

@@ -3,7 +3,7 @@ $width: 87.5rem;
     .main-banner {
         width: 100%;
         height: auto;
-        background-image: url(/project_pension/img/about-banner.png);
+        background-image: url(../../img/about-banner.png);
         flex-direction: column;
         h1 {
           padding: 5%;
@@ -13,6 +13,7 @@ $width: 87.5rem;
       
       main {
         width: auto;
+        margin: 0 auto;
         .first {
           width: 100%;
           height: none;
@@ -114,7 +115,6 @@ $width: 87.5rem;
     .main-banner {
         width: 100%;
         height: auto;
-        background-image: url(/img/about-banner.png);
         flex-direction: column;
         align-items: center;
         h1 {
@@ -261,7 +261,6 @@ $width: 87.5rem;
     .main-banner {
         width: 100%;
         height: auto;
-        background-image: url(/img/about-banner.png);
         flex-direction: column;
         align-items: center;
         h1 {
@@ -436,7 +435,6 @@ $width: 87.5rem;
     .main-banner {
         width: 100%;
         height: auto;
-        background-image: url(/img/about-banner.png);
         flex-direction: column;
         align-items: center;
         h1 {
