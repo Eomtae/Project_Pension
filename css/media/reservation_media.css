@@ -1,0 +1,892 @@
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .main-banner {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .main-banner h1 {
+    padding: 5%;
+    font-size: 3rem;
+  }
+  main {
+    width: auto;
+    margin: 0 auto;
+  }
+  main .first {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 2s;
+  }
+  main .first.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  main .first .price-part {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  main .first .price-part h2 {
+    font-size: 2.25rem;
+  }
+  main .first .price {
+    margin-top: 5%;
+  }
+  main .first .price img {
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    transition: ease-in-out 0.5s;
+  }
+  main .second {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 5%;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 2s;
+  }
+  main .second.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  main .second .left {
+    width: 100%;
+  }
+  main .second .left h3 {
+    font-size: 1.875rem;
+    letter-spacing: 5px;
+  }
+  main .second .left span {
+    font-weight: 400;
+    font-size: 1.875rem;
+  }
+  main .second .left :nth-of-type(4) {
+    -webkit-text-decoration: underline 2px;
+            text-decoration: underline 2px;
+  }
+  main .second .right {
+    width: 100%;
+  }
+  main .second .right img {
+    width: 100%;
+    border-radius: 25px;
+    transition: all 0.5s;
+  }
+  main .second .right img:hover {
+    transition: all 0.5s;
+    scale: 0.9;
+  }
+  main .third {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 10%;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 2s;
+  }
+  main .third.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  main .third .left {
+    width: 48%;
+    word-break: keep-all;
+  }
+  main .third .left img {
+    width: 100%;
+    border-radius: 25px;
+    transition: all 0.5s;
+  }
+  main .third .left img:hover {
+    transition: all 0.5s;
+    scale: 0.9;
+  }
+  main .third .right {
+    width: 48%;
+    word-break: keep-all;
+  }
+  main .third .right h3 {
+    font-size: 1.875rem;
+    letter-spacing: 10px;
+  }
+  .fourth {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 2s;
+  }
+  .fourth.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  .fourth article {
+    height: 100vh;
+    line-height: 2.7;
+  }
+  .fourth article h3 {
+    font-size: 3rem;
+    -webkit-text-decoration: underline 5px brown;
+            text-decoration: underline 5px brown;
+  }
+  .fourth article p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header .menu {
+    width: auto;
+    display: block;
+    text-align: end;
+    font-size: 1.25rem;
+  }
+  .main-banner {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-banner h1 {
+    padding: 5%;
+    font-size: 3rem;
+  }
+  main {
+    width: auto;
+    margin: 0 auto;
+  }
+  main .first {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 2s;
+  }
+  main .first.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  main .first .price-part {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  main .first .price-part h2 {
+    font-size: 2.25rem;
+  }
+  main .first .price {
+    margin-top: 5%;
+  }
+  main .first .price img {
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    transition: ease-in-out 0.5s;
+  }
+  main .second {
+    word-break: keep-all;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 5%;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 2s;
+  }
+  main .second.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  main .second .left {
+    width: 100%;
+  }
+  main .second .left h3 {
+    font-size: 1.575rem;
+    letter-spacing: 5px;
+  }
+  main .second .left span {
+    font-size: 1rem;
+  }
+  main .second .left p:nth-of-type(4) {
+    -webkit-text-decoration: underline 2px;
+            text-decoration: underline 2px;
+  }
+  main .second .right {
+    width: 100%;
+  }
+  main .second .right img {
+    width: 100%;
+    border-radius: 25px;
+    transition: all 0.5s;
+  }
+  main .second .right img:hover {
+    transition: all 0.5s;
+    scale: 0.9;
+  }
+  main .third {
+    word-break: keep-all;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 10%;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 2s;
+  }
+  main .third.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  main .third .left {
+    width: 100%;
+  }
+  main .third .left img {
+    width: 100%;
+    border-radius: 25px;
+    transition: all 0.5s;
+  }
+  main .third .left img:hover {
+    transition: all 0.5s;
+    scale: 0.9;
+  }
+  main .third .right {
+    width: 100%;
+  }
+  main .third .right h3 {
+    font-size: 1.875rem;
+    letter-spacing: 10px;
+  }
+  main .third .right p:nth-of-type(0) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .third .right p:nth-of-type(1) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .third .right p:nth-of-type(2) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .third .right p:nth-of-type(3) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .third .right p:nth-of-type(4) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  .fourth {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 2s;
+  }
+  .fourth.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  .fourth article {
+    height: 100vh;
+    line-height: 2.7;
+  }
+  .fourth article h3 {
+    font-size: 3rem;
+    -webkit-text-decoration: underline 5px brown;
+            text-decoration: underline 5px brown;
+  }
+  .fourth article p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  header .menu {
+    width: auto;
+    display: block;
+    text-align: end;
+    font-size: 1rem;
+  }
+  header .logo {
+    font-size: 1.5rem;
+  }
+  .main-banner {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-banner h1 {
+    padding: 5%;
+    font-size: 3rem;
+  }
+  main {
+    width: auto;
+    margin: 0 auto;
+  }
+  main .first {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 2s;
+  }
+  main .first.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  main .first .price-part {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  main .first .price-part h2 {
+    font-size: 1.875rem;
+  }
+  main .first .price {
+    margin-top: 5%;
+  }
+  main .first .price img {
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    transition: ease-in-out 0.5s;
+  }
+  main .second {
+    word-break: keep-all;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 5%;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 2s;
+  }
+  main .second.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  main .second .left {
+    width: 100%;
+  }
+  main .second .left h3 {
+    font-size: 1.25rem;
+    letter-spacing: 5px;
+  }
+  main .second .left span {
+    font-size: 1rem;
+  }
+  main .second .left p {
+    font-size: 0.785rem;
+  }
+  main .second .left p:nth-of-type(0) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .second .left p:nth-of-type(1) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .second .left p:nth-of-type(2) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .second .left p:nth-of-type(3) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .second .left p:nth-of-type(4) {
+    -webkit-text-decoration: underline 2px;
+            text-decoration: underline 2px;
+  }
+  main .second .right {
+    width: 100%;
+  }
+  main .second .right img {
+    width: 100%;
+    border-radius: 25px;
+    transition: all 0.5s;
+  }
+  main .second .right img:hover {
+    transition: all 0.5s;
+    scale: 0.9;
+  }
+  main .third {
+    word-break: keep-all;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 10%;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 2s;
+  }
+  main .third.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  main .third .left {
+    width: 100%;
+  }
+  main .third .left img {
+    width: 100%;
+    border-radius: 25px;
+    transition: all 0.5s;
+  }
+  main .third .left img:hover {
+    transition: all 0.5s;
+    scale: 0.9;
+  }
+  main .third .right {
+    width: 100%;
+  }
+  main .third .right h3 {
+    font-size: 1.25rem;
+    letter-spacing: 10px;
+  }
+  main .third .right p {
+    font-size: 0.785rem;
+  }
+  main .third .right p:nth-of-type(0) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .third .right p:nth-of-type(1) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .third .right p:nth-of-type(2) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .third .right p:nth-of-type(3) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  .fourth {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 2s;
+  }
+  .fourth.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  .fourth article {
+    background: #efefef;
+    word-break: keep-all;
+    height: 50vh;
+    line-height: 2;
+  }
+  .fourth article h3 {
+    font-size: 1.5rem;
+    -webkit-text-decoration: underline 3px brown;
+            text-decoration: underline 3px brown;
+  }
+  .fourth article p {
+    text-align: center;
+    font-size: 0.785rem;
+    font-weight: 500;
+  }
+  footer {
+    height: none;
+  }
+  footer article .footer-left {
+    display: none;
+  }
+  footer article .footer-right {
+    width: 100%;
+  }
+  footer .footer-bottom {
+    width: 100%;
+  }
+  footer .footer-bottom span {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (min-width: 290px) and (max-width: 499px) {
+  header .menu {
+    width: auto;
+    display: block;
+    text-align: end;
+    font-size: 0.625rem;
+  }
+  header .logo {
+    font-size: 1rem;
+  }
+  .main-banner {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-banner h1 {
+    padding: 5%;
+    font-size: 1.75rem;
+  }
+  main {
+    width: auto;
+    margin: 0 auto;
+  }
+  main .first {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 2s;
+  }
+  main .first.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  main .first .price-part {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  main .first .price-part h2 {
+    font-size: 1.5rem;
+  }
+  main .first .price {
+    margin-top: 5%;
+  }
+  main .first .price img {
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    transition: ease-in-out 0.5s;
+  }
+  main .second {
+    word-break: keep-all;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 5%;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 2s;
+  }
+  main .second.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  main .second .left {
+    width: 100%;
+  }
+  main .second .left h3 {
+    font-size: 1.25rem;
+    letter-spacing: 5px;
+  }
+  main .second .left span {
+    font-size: 0.75rem;
+  }
+  main .second .left p:nth-of-type(0) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .second .left p:nth-of-type(1) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .second .left p:nth-of-type(2) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .second .left p:nth-of-type(3) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .second .left p:nth-of-type(4) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .second .left p:nth-of-type(5) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .second .left p:nth-of-type(6) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .second .left p:nth-of-type(7) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .second .right {
+    width: 100%;
+  }
+  main .second .right img {
+    width: 100%;
+    border-radius: 25px;
+    transition: all 0.5s;
+  }
+  main .second .right img:hover {
+    transition: all 0.5s;
+    scale: 0.9;
+  }
+  main .third {
+    word-break: keep-all;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 10%;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 2s;
+  }
+  main .third.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  main .third .left {
+    width: 100%;
+  }
+  main .third .left img {
+    width: 100%;
+    border-radius: 25px;
+    transition: all 0.5s;
+  }
+  main .third .left img:hover {
+    transition: all 0.5s;
+    scale: 0.9;
+  }
+  main .third .right {
+    width: 100%;
+  }
+  main .third .right h3 {
+    font-size: 1.25rem;
+    letter-spacing: 10px;
+  }
+  main .third .right p {
+    font-size: 0.4375rem;
+  }
+  main .third .right p:nth-of-type(0) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .third .right p:nth-of-type(1) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .third .right p:nth-of-type(2) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .third .right p:nth-of-type(3) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  .fourth {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 2s;
+  }
+  .fourth.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  .fourth article {
+    background: #efefef;
+    word-break: keep-all;
+    height: 50vh;
+    line-height: 2;
+  }
+  .fourth article h3 {
+    font-size: 1.5rem;
+    -webkit-text-decoration: underline 3px brown;
+            text-decoration: underline 3px brown;
+  }
+  .fourth article p {
+    text-align: center;
+    font-size: 0.785rem;
+    font-weight: 500;
+  }
+  footer {
+    height: none;
+  }
+  footer article .footer-left {
+    display: none;
+  }
+  footer article .footer-right {
+    width: 100%;
+  }
+  footer .footer-bottom {
+    width: 100%;
+  }
+  footer .footer-bottom span {
+    font-size: 0.75rem;
+  }
+}/*# sourceMappingURL=reservation_media.css.map */

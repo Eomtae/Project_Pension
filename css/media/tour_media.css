@@ -1,0 +1,455 @@
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .main-banner {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .main-banner h1 {
+    padding: 5%;
+    font-size: 3.5rem;
+  }
+  main {
+    width: auto;
+  }
+  main .first {
+    width: 100%;
+    height: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  main .second {
+    width: 100%;
+    height: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  main .third {
+    width: 100%;
+    height: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  main .fourth {
+    width: 100%;
+    height: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  main .fifth {
+    width: 100%;
+    height: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  main .sixth {
+    width: 100%;
+    height: none;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header .menu {
+    width: auto;
+    display: block;
+    text-align: end;
+    font-size: 1.25rem;
+  }
+  .main-banner {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-banner h1 {
+    padding: 5%;
+    font-size: 3rem;
+  }
+  main {
+    width: auto;
+  }
+  main .first {
+    width: 100%;
+    height: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  main .second {
+    width: 100%;
+    height: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  main .third {
+    width: 100%;
+    height: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  main .fourth {
+    width: 100%;
+    height: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  main .fifth {
+    width: 100%;
+    height: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  main .sixth {
+    width: 100%;
+    height: none;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  header .menu {
+    width: auto;
+    display: block;
+    text-align: end;
+    font-size: 1rem;
+  }
+  header .logo {
+    font-size: 1.5rem;
+  }
+  .main-banner {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-banner h1 {
+    padding: 5%;
+    font-size: 3rem;
+  }
+  main {
+    width: auto;
+  }
+  main .first {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main .first .left {
+    width: 100%;
+  }
+  main .first .left h2 {
+    font-size: 2rem;
+  }
+  main .first .left p {
+    display: none;
+  }
+  main .first .right {
+    width: 80%;
+  }
+  main .second {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main .second .left {
+    width: 80%;
+  }
+  main .second .right {
+    width: 100%;
+  }
+  main .second .right h2 {
+    font-size: 2rem;
+  }
+  main .second .right p {
+    display: none;
+  }
+  main .third {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main .third .left {
+    width: 100%;
+  }
+  main .third .left h2 {
+    font-size: 2rem;
+  }
+  main .third .left p {
+    display: none;
+  }
+  main .third .right {
+    width: 80%;
+  }
+  main .fourth {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main .fourth .left {
+    width: 80%;
+  }
+  main .fourth .right {
+    width: 100%;
+  }
+  main .fourth .right h2 {
+    font-size: 2rem;
+  }
+  main .fourth .right p {
+    display: none;
+  }
+  main .fifth {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main .fifth .left {
+    width: 100%;
+  }
+  main .fifth .left h2 {
+    font-size: 2rem;
+  }
+  main .fifth .left p {
+    display: none;
+  }
+  main .fifth .right {
+    width: 80%;
+  }
+  main .sixth {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main .sixth .left {
+    width: 80%;
+  }
+  main .sixth .right {
+    width: 100%;
+  }
+  main .sixth .right h2 {
+    font-size: 2rem;
+  }
+  main .sixth .right p {
+    display: none;
+  }
+  footer {
+    height: none;
+  }
+  footer article .footer-left {
+    display: none;
+  }
+  footer article .footer-right {
+    width: 100%;
+  }
+  footer .footer-bottom {
+    width: 100%;
+  }
+  footer .footer-bottom span {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (min-width: 290px) and (max-width: 499px) {
+  header .menu {
+    width: auto;
+    display: block;
+    text-align: end;
+    font-size: 0.625rem;
+  }
+  header .logo {
+    font-size: 1rem;
+  }
+  .main-banner {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-banner h1 {
+    padding: 5%;
+    font-size: 1.75rem;
+  }
+  main {
+    width: auto;
+  }
+  main .first {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main .first .left {
+    width: 100%;
+  }
+  main .first .left h2 {
+    font-size: 1.5rem;
+  }
+  main .first .left span {
+    font-size: 1rem;
+  }
+  main .first .left p {
+    display: none;
+  }
+  main .first .right {
+    width: 80%;
+  }
+  main .second {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main .second .left {
+    width: 80%;
+  }
+  main .second .right {
+    width: 100%;
+  }
+  main .second .right h2 {
+    font-size: 1.5rem;
+  }
+  main .second .right span {
+    font-size: 1rem;
+  }
+  main .second .right p {
+    display: none;
+  }
+  main .third {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main .third .left {
+    width: 100%;
+  }
+  main .third .left h2 {
+    font-size: 1.5rem;
+  }
+  main .third .left span {
+    font-size: 1rem;
+  }
+  main .third .left p {
+    display: none;
+  }
+  main .third .right {
+    width: 80%;
+  }
+  main .fourth {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main .fourth .left {
+    width: 80%;
+  }
+  main .fourth .right {
+    width: 100%;
+  }
+  main .fourth .right h2 {
+    font-size: 1.5rem;
+  }
+  main .fourth .right span {
+    font-size: 1rem;
+  }
+  main .fourth .right p {
+    display: none;
+  }
+  main .fifth {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main .fifth .left {
+    width: 100%;
+  }
+  main .fifth .left h2 {
+    font-size: 1.5rem;
+  }
+  main .fifth .left span {
+    font-size: 1rem;
+  }
+  main .fifth .left p {
+    display: none;
+  }
+  main .fifth .right {
+    width: 80%;
+  }
+  main .sixth {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main .sixth .left {
+    width: 80%;
+  }
+  main .sixth .right {
+    width: 100%;
+  }
+  main .sixth .right h2 {
+    font-size: 1.5rem;
+  }
+  main .sixth .right span {
+    font-size: 1rem;
+  }
+  main .sixth .right p {
+    display: none;
+  }
+  footer {
+    height: none;
+  }
+  footer article .footer-left {
+    display: none;
+  }
+  footer article .footer-right {
+    width: 100%;
+  }
+  footer .footer-bottom {
+    width: 100%;
+  }
+  footer .footer-bottom span {
+    font-size: 0.75rem;
+  }
+}/*# sourceMappingURL=tour_media.css.map */

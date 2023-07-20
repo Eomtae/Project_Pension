@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/scss/common.css">
+    <link rel="stylesheet" href="./css/scss/about.css">
+    <script defer src="./js/common.js"></script>
+    <script defer src="js/about.js"></script>
+    <link rel="stylesheet" href="./css/media/about_media.css"><!--반응형-->
+    <title>::펜션 안내::</title>
+</head>
+<body>
+    <section class="main-banner">
+        <h1>펜션 안내</h1>
+    </section>
+
+    <main>
+        <section class="first">
+            <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./img/about/out/about1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/about/out/about2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/about/out/about3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/about/out/about4.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/about/out/about5.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/about/out/about6.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/about/out/about7.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/about/out/about8.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/about/out/about9.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="text">
+                    <h1><span>"아름다운 경치를</span> <br>
+                        <span>즐기세요"</span></h1>
+            </div>
+        </section>
+
+        <section class="second">
+            <div class="text">
+                <h1><span>"낚시로 행운을</span> <br>
+                    <span>시험해보세요"  </span></h1>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/about/fish/fish1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/about/fish/fish2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/about/fish/fish3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/about/fish/fish4.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/about/fish/fish5.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/about/fish/fish6.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/about/fish/fish7.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/about/fish/fish8.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/about/fish/fish9.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/about/fish/fish10.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/about/fish/fish11.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/about/fish/fish12.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/about/fish/fish13.jpg" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="third">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./img/about/small/small1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/about/small/small2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/about/small/small3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/about/small/small4.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/about/small/small5.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/about/small/small6.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="text">
+                    <h1><span>"책을 읽으며</span> <br>
+                        <span>휴식을 취하세요"</span></h1>
+                </div>
+        </section>
+
+        <section class="fourth">
+                <div class="text">
+                    <h1><span>"지역 관광지를</span> <br>
+                        <span>탐험하세요"</span></h1>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./img/about/etc/etc1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/about/etc/etc2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/about/etc/etc3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/about/etc/etc4.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/about/etc/etc5.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+        </section>
+
+    </main>
+    
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            direction: "vertical",
+            slidesPerView: 1,
+            spaceBetween: 30,
+            mousewheel: true,
+            effect: "fade",
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+    <!--about Script-->
+</body>
+
+</html>

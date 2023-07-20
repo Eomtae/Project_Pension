@@ -1,0 +1,421 @@
+$width: 87.5rem;
+
+@media screen and (min-width:1024px) and (max-width:1400px){
+    .main-banner{
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        h1{
+            padding: 5%;
+            font-size: 3rem;
+        }
+        .choose{
+            width: 100%;
+            margin:0 auto;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: space-around;
+            button{
+                width: 100%;
+                height: 3.125rem;
+                font-size: .8rem;
+            }
+          }
+    }
+    .first{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+    }
+    main{
+        max-width: $width;
+        margin:0 auto;
+        
+        .second{
+        width: 100%;
+        height: auto;
+        justify-content: flex-start;
+            .second-tab{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 3%;
+            margin-bottom:0;
+            span{
+                font-size: 1.5rem;
+            }
+            }
+            .second-box{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                .flexbox{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 4%;
+                    img{
+                        width: 30%;
+                        border-radius: 20px;
+                    transition: all 1s;
+                    }:hover{
+                        transform: scale(1.1);
+                        transition: all 1s;
+                    }
+                }
+            }
+        }
+        
+    }
+    .third{
+        width: 100%;
+        height: 50vh;
+        h1{
+            font-size: 2rem;
+        }
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    header{
+        .menu{
+            width: auto;
+            display: block;
+            text-align: end;
+            font-size: 1.25rem;
+        }
+    }
+    .main-banner{
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        h1{
+            padding: 5%;
+            font-size: 3rem;
+        }
+        .choose{
+            width: 100%;
+            margin:0 auto;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: space-around;
+            button{
+                width: 100%;
+                height: 3.125rem;
+                font-size: .8rem;
+                word-break: keep-all;
+            }
+          }
+    }
+    .first{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+    }
+    main{
+        max-width: $width;
+        margin:0 auto;
+        
+        .second{
+        width: 100%;
+        height: auto;
+        justify-content: flex-start;
+            .second-tab{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 3%;
+            margin-bottom:0;
+            span{
+                font-size: 1.5rem;
+            }
+            }
+            .second-box{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                .flexbox{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 4%;
+                    img{
+                        width: 30%;
+                        border-radius: 20px;
+                    transition: all 1s;
+                    }:hover{
+                        transform: scale(1.1);
+                        transition: all 1s;
+                    }
+                }
+            }
+        }
+        
+    }
+    .third{
+        width: 100%;
+        height: 50vh;
+        h1{
+            font-size: 2rem;
+        }
+    }
+}
+@media screen and (min-width:500px) and (max-width:767px){
+    header{
+        .menu{
+            width: auto;
+            display: block;
+            text-align: end;
+            font-size: 1rem;
+        }
+        .logo{
+            font-size: 1.5rem;
+        }
+    }
+    .main-banner{
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        h1{
+            padding: 5%;
+            font-size: 3rem;
+        }
+        .choose{
+            width: 15%;
+            margin:0 auto;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: space-around;
+            button{
+                width: 100%;
+                height: 3.125rem;
+                font-size: .8rem;
+                word-break: keep-all;
+            }
+          }
+    }
+    .first{
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    main{
+        max-width: $width;
+        margin:0 auto;
+        .second{
+        width: 100%;
+        height: auto;
+        justify-content: flex-start;
+            .second-tab{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 3%;
+            margin-bottom:0;
+            img{
+                width: 50%;
+            }
+            span{
+                font-size: 1rem;
+            }
+            }
+            .second-box{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                .flexbox{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 4%;
+                    img{
+                        width: 30%;
+                        border-radius: 20px;
+                    transition: all 1s;
+                    }:hover{
+                        transform: scale(1.1);
+                        transition: all 1s;
+                    }
+                }
+            }
+        }
+        
+    }
+    .third{
+        width: 100%;
+        height: 20vh;
+        h1{
+            font-size: 1rem;
+        }
+    }
+    footer{
+        height: none;
+        article{
+            .footer-left{
+                display: none;
+            }
+            .footer-right{
+                width: 100%;
+            }
+        }
+        .footer-bottom{
+            width: 100%;
+            span{
+                font-size: .75rem;
+            }
+        }
+        
+    }
+}
+@media screen and (min-width:290px) and (max-width:499px){
+    header{
+        .menu{
+            width: auto;
+            display: block;
+            text-align: end;
+            font-size: 0.625rem;
+        }
+        .logo{
+            font-size: 1rem;
+        }
+    }
+    .main-banner{
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        h1{
+            padding: 5%;
+            font-size: 1.75rem;
+        }
+        .choose{
+            width: 100%;
+            margin:0 auto;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: space-around;
+            button{
+                width: 100%;
+                height: 2rem;
+                font-size: .5rem;
+                word-break: keep-all; 
+                overflow: hidden;  
+            }
+          }
+    }
+    .first{
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    main{
+        max-width: $width;
+        margin:0 auto;
+        .second{
+        width: 100%;
+        height: auto;
+        justify-content: flex-start;
+            .second-tab{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 3%;
+            margin-bottom:0;
+            img{
+                width: 50%;
+            }
+            span{
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                margin: -1px;
+                overflow: hidden;
+                clip-path: polygon(0 0, 0 0, 0 0);
+            }
+            }
+            .second-box{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                .flexbox{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 4%;
+                    img{
+                        width: 30%;
+                        border-radius: 20px;
+                    transition: all 1s;
+                    }:hover{
+                        transform: scale(1.1);
+                        transition: all 1s;
+                    }
+                }
+            }
+        }
+        
+    }
+    .third{
+        width: 100%;
+        height: 10vh;
+        h1{
+            font-size: .5rem;
+        }
+    }
+    footer{
+        height: auto;
+        article{
+            .footer-left{
+                display: none;
+            }
+            .footer-right{
+                width: 100%;
+            }
+        }
+        .footer-bottom{
+            width: 100%;
+            span{
+                font-size: .75rem;
+            }
+        }
+        
+    }
+}
